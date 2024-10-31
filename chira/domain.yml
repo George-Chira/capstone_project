@@ -56,6 +56,11 @@ responses:
     - text: "PHC services will be provided free at level 2 and 3 facilities and through referrals."
     - text: "PHC Fund expenditure is based on annual budget estimates set by the SHA."
 
+  utter_ask_emergency_fund:
+    - text: "The Emergency Chronic and Critical Illness Fund provides coverage for emergencies and critical illnesses."
+    - text: "Eligibility for the Emergency Fund will be based on specific criteria determined by SHA."
+    - text: "Benefits will commence as soon as registration is complete and approved."
+
   utter_ask_registration:
     - text: "All Kenyans and long-term residents are eligible and required to register."
     - text: "NHIF members must re-register with SHA."
@@ -128,3 +133,4 @@ responses:
 
   utter_iamabot:
     - text: "I am a virtual assistant here to answer your questions on social health coverage."
+

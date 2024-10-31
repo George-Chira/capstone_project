@@ -1,11 +1,5 @@
 stories:
- stories:
   - story: Understanding Social Health Authority (SHA) Inquiry 1
-    steps:
-      - intent: ask_sha
-      - action: utter_ask_sha
-
-  - story: Understanding Social Health Authority (SHA) Inquiry 2
     steps:
       - intent: ask_sha
       - action: utter_ask_sha
@@ -50,9 +44,7 @@ stories:
       - intent: ask_feedback_resolution
       - action: utter_ask_feedback_resolution
 
-  # Additional story for bot_challenge to use utter_bot_challenge
   - story: Bot Challenge Story
     steps:
       - intent: bot_challenge
       - action: utter_bot_challenge
-
