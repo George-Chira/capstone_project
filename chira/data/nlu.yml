@@ -1,0 +1,122 @@
+
+
+nlu:
+  - intent: ask_sha
+    examples: |
+      - why was the shift to universal health coverage necessary
+      - what is social health insurance shi
+      - what are the principles of social health insurance
+      - why is social health insurance important
+
+  - intent: ask_uhc_institutions
+    examples: |
+      - what are the health laws
+      - what informs the proposed reforms towards the shi why was the transition to sha necessary instead of revamping nhif
+      - what is the difference between sha and shif
+      - what is the transition process from nhif to sha
+      - how will the transition process from nhif to sha be done
+      - are the three bodies under sha independent with own structures
+      - will the current running contracts with suppliers and health care providers be affected by the transition process
+      - are nhif assets and liabilities automatically shas
+      - how will the transition process ensure continuity of services to kenyans
+      - what happens to contributions paid in advance by self-employed persons if the means testing determine their rates to be lower or higher than ksh
+      - how will the healthcare contracts be seamlessly transitioned in view of the new benefit package
+      - will we remain our regionalbranch network
+      - will there be rebranding of the new entities once they come on board
+      - what happens to the ict infrastructure
+
+  - intent: ask_nhif_transition
+    examples: |
+      - how will staff be affected by the transition process
+      - what happens to staff who will not be absorbed by the sha
+      - in the event that sha remuneration package is lower than that of nhif how will this impact the transitioned staff
+      - what becomes of the staff pension contributions for staff who transition to sha and those who are deployed to other public service sectors
+      - will the union be fully involved in the transition process
+      - will there be forced exits
+
+  - intent: ask_phc_fund
+    examples: |
+      - what is primary health care
+      - what is primary health care fund
+      - who is eligible to access the primary healthcare fund
+      - how will i register for the primary healthcare fund
+      - will i have to contribute to the primary healthcare fund what other sources of funds are there
+      - when will i use the primary healthcare fund
+      - what is the maximum amount the primary healthcare fund can cover
+
+  - intent: ask_emergency_fund
+    examples: |
+      - what is the emergency chronic and critical illness fund
+      - who will be eligible to register to the emergency chronic and critical illness fund
+      - when will i start benefiting from the emergency chronic and critical illness fund
+      - how will my benefit package look like in the emergency chronic and critical illness fund
+      - which institution will be responsible for management of the emergency chronic and critical illness fund
+
+  - intent: ask_registration
+    examples: |
+      - who will be eligible to register for sha
+      - do i need to register afresh as an sha member if i was already an nhif member
+      - will there be any costs associated with registering afresh
+      - can individuals choose not to be part of social health insurance
+      - will nhif members automatically transition to be sha members what of the payments that were already paid by members
+      - how will i register for shi
+      - how do i add dependents and are there limits on the number of children
+      - does it cover more than one wife
+      - if registration is per household does it mean only one spouse contributes
+      - what happens to the dependents if a member passes on
+      - what happens to the current biometric that are captured
+      - who will be the contributors to social health authority
+      - how will i contribute to sha
+      - how much will i contribute to sha
+      - what happens when the two heads of a household have separate incomes
+      - if both spouses are employed are both required to make monthly contributions
+      - who is required to pay the minimum contribution of kes per month
+      - is there an option for capping the deductions
+      - how will the determination of income for the informal sector be done
+      - should members wait until means testing is conducted to make contributions
+      - if someone transitions or there is a change of income who is responsible for determining the contribution what is the reporting mechanism
+      - are kenyans contributing to all three funds and how do these contributions work
+      - how many times will i contribute to shi
+      - will services be accessible if i lose employment formal vs informal
+      - is insurance premium financing available for those who cannot afford consistent payments
+      - can cooperative societies join sha as groups and make base minimum contributions
+      - what if i am unable to paycontribute to shi
+      - which facilities will be contracted and empaneled by sha
+      - how will i know which facilities or providers around a given area of residence will be covered by sha
+      - what happens to my current contributions to nhif
+      - can i choose my healthcare providers and facilities under sha
+      - how will sha benefit lowincome and vulnerable populations and plwd
+      - are there penalties for defaulters andor late payment
+      - how do i pay penalties
+      - can i get refunded if i do not utilize my contribution
+      - can i take a private health insurance cover
+
+  - intent: ask_benefits_claims
+    examples: |
+      - for civil servants including hcws what will happen to their enhanced scheme
+      - are civil servants cushioned to seek services from private facilities
+      - what will happen to the school children who were covered under edu afya
+      - what is the package for those who opt to retireexit public service
+      - will sha cover travel health insurance
+      - when will i use my social health insurance fund
+      - how will my benefit package look like in sha
+      - how do the sha benefits compare with the nhif benefits
+      - how can additional services be added to the essential benefits package
+      - what happens to retired civil servants under sha
+      - how does the essential benefits package impact premiums
+      - how does one get to know what tariffs are in use
+
+  - intent: ask_service_quality
+    examples: |
+      - which facilities will one access the sha services where do i access services
+      - is there a waiting period to access services
+      - can one receive phc services in referral hospitals
+      - what happens when one falls sick when far from the selected facility
+      - there is a need for measures to enhance the quality of care including the role of counties in preventive services
+      - where should providers claim payment of pending bills
+      - what will be the role of sha in ensuring commodities are available in healthcare facilities
+
+  - intent: ask_feedback_resolution
+    examples: |
+      - how can individuals in kenya file complaints or seek assistance under social health authority
+      - which takes precedence between procurement tribunal and sha tribunal in procurement disputes when contracting and empanelment
