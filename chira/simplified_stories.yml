@@ -1,0 +1,45 @@
+stories:
+  - story: Understanding Social Health Authority (SHA) Inquiry
+    steps:
+      - intent: ask_sha
+      - action: utter_ask_sha
+
+  - story: Institutions Created by UHC Laws and Transition Inquiry
+    steps:
+      - intent: ask_uhc_institutions
+      - action: utter_ask_uhc_institutions
+
+  - story: NHIF Staff Considerations During Transition Inquiry
+    steps:
+      - intent: ask_nhif_transition
+      - action: utter_ask_nhif_transition
+
+  - story: Primary Health Care & the PHC Fund Inquiry
+    steps:
+      - intent: ask_phc_fund
+      - action: utter_ask_phc_fund
+
+  - story: Emergency Chronic and Critical Illness Fund Inquiry
+    steps:
+      - intent: ask_emergency_fund
+      - action: utter_ask_emergency_fund
+
+  - story: Registration, Means Testing & Contributions Inquiry
+    steps:
+      - intent: ask_registration
+      - action: utter_ask_registration
+
+  - story: Benefits, Claims & Packages Inquiry
+    steps:
+      - intent: ask_benefits_claims
+      - action: utter_ask_benefits_claims
+
+  - story: Service Quality and Access Inquiry
+    steps:
+      - intent: ask_service_quality
+      - action: utter_ask_service_quality
+
+  - story: Feedback and Dispute Resolution Inquiry
+    steps:
+      - intent: ask_feedback_resolution
+      - action: utter_ask_feedback_resolution
