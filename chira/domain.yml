@@ -125,12 +125,12 @@ responses:
     - text: "SHA will implement a complaint resolution mechanism under state corporation governance guidelines."
     - text: "The Public Procurement Tribunal has precedence in procurement disputes under the SHA framework."
 
-  utter_goodbye:
-    - text: "Goodbye! If you have any more questions, feel free to ask."
+  # utter_goodbye:
+  #   - text: "Goodbye! If you have any more questions, feel free to ask."
 
-  utter_bot_challenge:
-    - text: "I'm here to assist with your questions on social health insurance. Let me know how I can help!"
+  # utter_bot_challenge:
+  #   - text: "I'm here to assist with your questions on social health insurance. Let me know how I can help!"
 
-  utter_iamabot:
-    - text: "I am a virtual assistant here to answer your questions on social health coverage."
+  # utter_iamabot:
+  #   - text: "I am a virtual assistant here to answer your questions on social health coverage."
 
