@@ -44,7 +44,7 @@ stories:
       - intent: ask_feedback_resolution
       - action: utter_ask_feedback_resolution
 
-  - story: Bot Challenge Story
-    steps:
-      - intent: bot_challenge
-      - action: utter_bot_challenge
+  # - story: Bot Challenge Story
+  #   steps:
+  #     - intent: bot_challenge
+  #     - action: utter_bot_challenge
