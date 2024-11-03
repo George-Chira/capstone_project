@@ -1,10 +1,10 @@
 stories:
-  - story: Understanding Social Health Authority (SHA) Inquiry 1
+  - story: Understanding Social Health Authority (SHA) 
     steps:
       - intent: ask_sha
       - action: utter_ask_sha
 
-  - story: Institutions Created by UHC Laws and Transition Inquiry 1
+  - story: Institutions Created by UHC Laws and Transition 
     steps:
       - intent: ask_uhc_institutions
       - action: utter_ask_uhc_institutions
@@ -44,7 +44,7 @@ stories:
       - intent: ask_feedback_resolution
       - action: utter_ask_feedback_resolution
 
-  # - story: Bot Challenge Story
-  #   steps:
-  #     - intent: bot_challenge
-  #     - action: utter_bot_challenge
+  - story: Bot Challenge Story
+    steps:
+      - intent: bot_challenge
+      - action: utter_bot_challenge

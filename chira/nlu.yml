@@ -121,21 +121,21 @@ nlu:
       - how can individuals in kenya file complaints or seek assistance under social health authority
       - which takes precedence between procurement tribunal and sha tribunal in procurement disputes when contracting and empanelment
 
-  # - intent: bot_challenge
-  #   examples: |
-  #     - Are you a real person?
-  #     - Are you a chatbot?
-  #     - Can you prove you're not a bot?
+  - intent: bot_challenge
+    examples: |
+      - Are you a real person?
+      - Are you a chatbot?
+      - Can you prove you're not a bot?
 
-  # - intent: goodbye
-  #   examples: |
-  #     - Goodbye
-  #     - See you later
-  #     - Bye
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - See you later
+      - Bye
 
-  # - intent: iamabot
-  #   examples: |
-  #     - Are you a bot?
-  #     - Are you human or a robot?
-  #     - Are you an AI?
+  - intent: iamabot
+    examples: |
+      - Are you a bot?
+      - Are you human or a robot?
+      - Are you an AI?
 
