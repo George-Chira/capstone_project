@@ -4,7 +4,7 @@ recipe: default.v1
 
 # The assistant project unique identifier
 # This default value must be replaced with a unique assistant name within your deployment
-assistant_id: 20241103-114035-sunny-arch
+assistant_id: 20241103-133114-sleek-teapot
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
