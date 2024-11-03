@@ -1,9 +1,9 @@
 {
-  "deny": {
+  "mood_unhappy": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 7,
+    "support": 14,
     "confused_with": {}
   },
   "bot_challenge": {
@@ -11,6 +11,13 @@
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
     "confused_with": {}
   },
   "affirm": {
@@ -27,21 +34,14 @@
     "support": 13,
     "confused_with": {}
   },
-  "goodbye": {
+  "deny": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 10,
+    "support": 7,
     "confused_with": {}
   },
   "mood_great": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "mood_unhappy": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
