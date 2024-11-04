@@ -1,50 +1,35 @@
-# The config recipe.
-# https://rasa.com/docs/rasa/model-configuration/
-recipe: default.v1
+version: "3.1"
 
-# The assistant project unique identifier
-# This default value must be replaced with a unique assistant name within your deployment
-assistant_id: 20241103-133114-sleek-teapot
-
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
+# Configuration for Rasa NLU and Core
 language: en
 
-pipeline: null
-# # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
-# # If you'd like to customize it, uncomment and adjust the pipeline.
-# # See https://rasa.com/docs/rasa/tuning-your-model for more information.
-#   - name: WhitespaceTokenizer
-#   - name: RegexFeaturizer
-#   - name: LexicalSyntacticFeaturizer
-#   - name: CountVectorsFeaturizer
-#   - name: CountVectorsFeaturizer
-#     analyzer: char_wb
-#     min_ngram: 1
-#     max_ngram: 4
-#   - name: DIETClassifier
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: EntitySynonymMapper
-#   - name: ResponseSelector
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: FallbackClassifier
-#     threshold: 0.3
-#     ambiguity_threshold: 0.1
+pipeline:
+  # This is a basic pipeline that works well for most chatbots
+- name: WhitespaceTokenizer      # Splits text into words
+- name: RegexFeaturizer          # Extracts features based on regex patterns
+- name: LexicalSyntacticFeaturizer    # Adds token-level features
+- name: CountVectorsFeaturizer   # Vector representation of text using word counts
+- name: DIETClassifier           # Entity extraction & intent classification
+  epochs: 100
+- name: EntitySynonymMapper      # Maps synonyms for consistent entity recognition
+- name: ResponseSelector         # Matches user input with response variations
+  epochs: 100
+- name: FallbackClassifier       # Classifier for triggering fallback action
+  threshold: 0.3                 # If confidence < 0.3, triggers fallback action
 
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
-policies: null
-# # No configuration for policies was provided. The following default policies were used to train your model.
-# # If you'd like to customize them, uncomment and adjust the policies.
-# # See https://rasa.com/docs/rasa/policies for more information.
-#   - name: MemoizationPolicy
-#   - name: RulePolicy
-#   - name: UnexpecTEDIntentPolicy
-#     max_history: 5
-#     epochs: 100
-#   - name: TEDPolicy
-#     max_history: 5
-#     epochs: 100
-#     constrain_similarities: true
+policies:
+  # Rule-based policy to handle predictable conversation paths and fallback scenarios
+- name: RulePolicy
+  core_fallback_threshold: 0.3
+  core_fallback_action_name: "action_default_fallback"
+  enable_fallback_prediction: true
+
+  # Memoization policy for remembering exact user conversations
+- name: MemoizationPolicy
+  max_history: 5                 # Remembers the last 5 turns to repeat common flows
+
+  # Policy to handle conversations with unpredictable turns
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100                    # Number of epochs to train conversation policy
+assistant_id: 20241104-222308-soft-gun

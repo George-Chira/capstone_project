@@ -1,10 +1,10 @@
 stories:
-  - story: Understanding Social Health Authority (SHA) 
+  - story: Understanding Social Health Authority (SHA)
     steps:
       - intent: ask_sha
       - action: utter_ask_sha
 
-  - story: Institutions Created by UHC Laws and Transition 
+  - story: Institutions Created by UHC Laws and Transition
     steps:
       - intent: ask_uhc_institutions
       - action: utter_ask_uhc_institutions
