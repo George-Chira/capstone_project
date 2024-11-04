@@ -1,0 +1,274 @@
+[
+  {
+    "text": "How are you?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_identity",
+      "confidence": 0.3375145494937897
+    }
+  },
+  {
+    "text": "Are you human or a machine?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.552273154258728
+    }
+  },
+  {
+    "text": "How does social health insurance benefit the healthcare sector?",
+    "intent": "importance_of_shi",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.16679760813713074
+    }
+  },
+  {
+    "text": "What are the benefits of adopting social health insurance?",
+    "intent": "importance_of_shi",
+    "intent_prediction": {
+      "name": "ask_phc_fund",
+      "confidence": 0.17083193361759186
+    }
+  },
+  {
+    "text": "How does SHI promote healthcare equity?",
+    "intent": "importance_of_shi",
+    "intent_prediction": {
+      "name": "choose_provider_sha",
+      "confidence": 0.17954795062541962
+    }
+  },
+  {
+    "text": "How does the SHA structure differ from the SHIF structure?",
+    "intent": "difference_sha_shif",
+    "intent_prediction": {
+      "name": "health_laws_uhc",
+      "confidence": 0.3197571635246277
+    }
+  },
+  {
+    "text": "What is the process of transitioning from NHIF to SHA?",
+    "intent": "nhif_to_sha_transition_process",
+    "intent_prediction": {
+      "name": "staff_affected_transition",
+      "confidence": 0.17566440999507904
+    }
+  },
+  {
+    "text": "How will the transition from NHIF to SHA impact healthcare access?",
+    "intent": "continuity_of_services",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.10086207836866379
+    }
+  },
+  {
+    "text": "Who can register for SHA?",
+    "intent": "eligibility_sha",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.5660136938095093
+    }
+  },
+  {
+    "text": "Can non-Kenyans register for SHA?",
+    "intent": "eligibility_sha",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.4885048270225525
+    }
+  },
+  {
+    "text": "What are the eligibility criteria for registering for SHA?",
+    "intent": "eligibility_sha",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.39396125078201294
+    }
+  },
+  {
+    "text": "How will contributions be made to SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.20334041118621826
+    }
+  },
+  {
+    "text": "What is the process for contributing to SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.291111558675766
+    }
+  },
+  {
+    "text": "Who is required to make contributions to SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.4594302475452423
+    }
+  },
+  {
+    "text": "How will salaried employees contribute to SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.19291473925113678
+    }
+  },
+  {
+    "text": "What are the contribution rates for SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.2825244963169098
+    }
+  },
+  {
+    "text": "How will informal sector workers make contributions to SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.39205196499824524
+    }
+  },
+  {
+    "text": "What services are covered by the Primary Healthcare Fund?",
+    "intent": "access_primary_health_fund",
+    "intent_prediction": {
+      "name": "ask_phc_fund",
+      "confidence": 0.40265679359436035
+    }
+  },
+  {
+    "text": "How do I register for the Primary Healthcare Fund?",
+    "intent": "access_primary_health_fund",
+    "intent_prediction": {
+      "name": "ask_phc_fund",
+      "confidence": 0.4370696246623993
+    }
+  },
+  {
+    "text": "How will I benefit from the Primary Healthcare Fund?",
+    "intent": "access_primary_health_fund",
+    "intent_prediction": {
+      "name": "ask_phc_fund",
+      "confidence": 0.4316316246986389
+    }
+  },
+  {
+    "text": "How will the NHIF shift to SHA?",
+    "intent": "ask_nhif_transition",
+    "intent_prediction": {
+      "name": "why_shift_to_uhc",
+      "confidence": 0.11162863671779633
+    }
+  },
+  {
+    "text": "What will be done to transition NHIF to SHA?",
+    "intent": "ask_nhif_transition",
+    "intent_prediction": {
+      "name": "reforms_shi_vs_nhif",
+      "confidence": 0.17237067222595215
+    }
+  },
+  {
+    "text": "What are the transition steps from NHIF to SHA?",
+    "intent": "ask_nhif_transition",
+    "intent_prediction": {
+      "name": "reforms_shi_vs_nhif",
+      "confidence": 0.1089046373963356
+    }
+  },
+  {
+    "text": "Is NHIF being replaced by SHA?",
+    "intent": "ask_nhif_transition",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.17712999880313873
+    }
+  },
+  {
+    "text": "How will SHA take over from NHIF?",
+    "intent": "ask_nhif_transition",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.13921090960502625
+    }
+  },
+  {
+    "text": "What is the emergency fund for healthcare?",
+    "intent": "ask_emergency_fund",
+    "intent_prediction": {
+      "name": "ask_benefits_claims",
+      "confidence": 0.08858609944581985
+    }
+  },
+  {
+    "text": "How does the emergency fund work for chronic illnesses?",
+    "intent": "ask_emergency_fund",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.11610142886638641
+    }
+  },
+  {
+    "text": "Can I access the emergency fund in an urgent situation?",
+    "intent": "ask_emergency_fund",
+    "intent_prediction": {
+      "name": "ask_benefits_claims",
+      "confidence": 0.17498035728931427
+    }
+  },
+  {
+    "text": "Who can use the emergency fund for healthcare?",
+    "intent": "ask_emergency_fund",
+    "intent_prediction": {
+      "name": "ask_sha",
+      "confidence": 0.08678273856639862
+    }
+  },
+  {
+    "text": "How does SHA ensure quality of service?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.5746469497680664
+    }
+  },
+  {
+    "text": "What quality standards are followed under SHA?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.4631028473377228
+    }
+  },
+  {
+    "text": "Will SHA monitor the quality of healthcare services?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.24151897430419922
+    }
+  },
+  {
+    "text": "What is SHA doing about service quality?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.3065936863422394
+    }
+  },
+  {
+    "text": "How does SHA assure quality healthcare?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.1800115704536438
+    }
+  }
+]

@@ -153,7 +153,7 @@ nlu:
   - intent: access_primary_health_fund
     examples: |
       - How can I use the Primary Healthcare Fund?
-      - When can I access services using the Primary Healthcare Fund?
+      - When can I access
       - What services are covered by the Primary Healthcare Fund?
       - How do I register for the Primary Healthcare Fund?
       - Who is eligible to use the Primary Healthcare Fund?
@@ -285,3 +285,5 @@ nlu:
       - How do I know you're not human?
       - You're just a bot, right?
       - Are you a person or a machine?
+
+

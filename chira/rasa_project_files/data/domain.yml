@@ -1,5 +1,6 @@
 
 
+
 version: "3.1"
 
 intents:
@@ -30,8 +31,8 @@ intents:
   - ask_phc_fund
   - ask_emergency_fund
   - ask_registration
-  - ask_benefits_claims
   - ask_service_quality
+  - ask_benefits_claims
   - ask_feedback_resolution
   - bot_challenge
 
@@ -168,3 +169,5 @@ actions:
   - utter_ask_feedback_resolution
   - utter_iamabot
 
+
+  
