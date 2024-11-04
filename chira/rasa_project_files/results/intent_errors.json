@@ -1,0 +1,218 @@
+[
+  {
+    "text": "Farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6533870100975037
+    }
+  },
+  {
+    "text": "Are you a bot?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.40905362367630005
+    }
+  },
+  {
+    "text": "Are you human or a machine?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5279961228370667
+    }
+  },
+  {
+    "text": "Can you tell me if you are a real person?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4961078464984894
+    }
+  },
+  {
+    "text": "What are you?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.2561190128326416
+    }
+  },
+  {
+    "text": "Tell me about yourself",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.11131042242050171
+    }
+  },
+  {
+    "text": "Are you an AI?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.49220526218414307
+    }
+  },
+  {
+    "text": "What is the reason for the UHC implementation?",
+    "intent": "why_shift_to_uhc",
+    "intent_prediction": {
+      "name": "sha_benefits_low_income",
+      "confidence": 0.10336523503065109
+    }
+  },
+  {
+    "text": "What led to the decision to shift to UHC?",
+    "intent": "why_shift_to_uhc",
+    "intent_prediction": {
+      "name": "sha_contributions",
+      "confidence": 0.10695981979370117
+    }
+  },
+  {
+    "text": "What does social health insurance (SHI) mean?",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.17904075980186462
+    }
+  },
+  {
+    "text": "Can you explain what SHI is?",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.2009783238172531
+    }
+  },
+  {
+    "text": "What is social health insurance and how does it work?",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.19354544579982758
+    }
+  },
+  {
+    "text": "How does SHI help in managing healthcare?",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "importance_of_shi",
+      "confidence": 0.1470640003681183
+    }
+  },
+  {
+    "text": "Define social health insurance",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "importance_of_shi",
+      "confidence": 0.26209306716918945
+    }
+  },
+  {
+    "text": "Explain SHI",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "principles_of_shi",
+      "confidence": 0.139105424284935
+    }
+  },
+  {
+    "text": "What is SHI?",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.14467015862464905
+    }
+  },
+  {
+    "text": "Tell me about SHI",
+    "intent": "what_is_shi",
+    "intent_prediction": {
+      "name": "nhif_to_sha_transition_process",
+      "confidence": 0.12875238060951233
+    }
+  },
+  {
+    "text": "Do I get penalized for not paying SHA on time?",
+    "intent": "penalties_for_late_payment",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.20696817338466644
+    }
+  },
+  {
+    "text": "Is there a late fee for SHA contributions?",
+    "intent": "penalties_for_late_payment",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.17760519683361053
+    }
+  },
+  {
+    "text": "Are you self-aware?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "bot_identity",
+      "confidence": 0.20816053450107574
+    }
+  },
+  {
+    "text": "How do I register for the Primary Healthcare Fund?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.3272455632686615
+    }
+  },
+  {
+    "text": "What services are provided by the Primary Healthcare Fund?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.508939266204834
+    }
+  },
+  {
+    "text": "Who is eligible for the Primary Healthcare Fund?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.4347246289253235
+    }
+  },
+  {
+    "text": "How do I access the Primary Healthcare Fund?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "access_primary_health_fund",
+      "confidence": 0.3777106702327728
+    }
+  },
+  {
+    "text": "What are the benefits of the PHC Fund?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "principles_of_shi",
+      "confidence": 0.199687659740448
+    }
+  },
+  {
+    "text": "Who is required to register for SHA?",
+    "intent": "ask_registration",
+    "intent_prediction": {
+      "name": "sha_contributions",
+      "confidence": 0.1538008600473404
+    }
+  },
+  {
+    "text": "What quality checks does SHA have?",
+    "intent": "sha_manage_quality",
+    "intent_prediction": {
+      "name": "ask_service_quality",
+      "confidence": 0.17512096464633942
+    }
+  }
+]

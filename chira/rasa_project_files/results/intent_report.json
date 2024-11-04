@@ -1,70 +1,114 @@
 {
-  "mood_unhappy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
+  "ask_registration": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "sha_contributions": 1
+    }
   },
-  "bot_challenge": {
-    "precision": 1.0,
+  "greet": {
+    "precision": 0.8333333333333334,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "f1-score": 0.9090909090909091,
     "support": 10,
     "confused_with": {}
   },
-  "affirm": {
+  "penalties_for_late_payment": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "greet": 1,
+      "ask_registration": 1
+    }
   },
-  "greet": {
+  "sha_manage_quality": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "ask_service_quality": 1
+    }
   },
-  "deny": {
+  "why_shift_to_uhc": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "sha_contributions": 1,
+      "sha_benefits_low_income": 1
+    }
   },
-  "mood_great": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
+  "goodbye": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "greet": 1
+    }
   },
-  "accuracy": 1.0,
-  "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 68
+  "bot_challenge": {
+    "precision": 0.5,
+    "recall": 0.9,
+    "f1-score": 0.6428571428571429,
+    "support": 10,
+    "confused_with": {
+      "bot_identity": 1
+    }
   },
-  "weighted avg": {
+  "bot_identity": {
+    "precision": 0.8,
+    "recall": 0.4,
+    "f1-score": 0.5333333333333333,
+    "support": 10,
+    "confused_with": {
+      "bot_challenge": 5,
+      "goodbye": 1
+    }
+  },
+  "ask_phc_fund": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 68
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 10,
+    "confused_with": {
+      "access_primary_health_fund": 4,
+      "principles_of_shi": 1
+    }
+  },
+  "what_is_shi": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 10,
+    "confused_with": {
+      "bot_challenge": 4,
+      "importance_of_shi": 2
+    }
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 68
-  }
+    "precision": 0.8390804597701149,
+    "recall": 0.73,
+    "f1-score": 0.7807486631016043,
+    "support": 100
+  },
+  "macro avg": {
+    "precision": 0.8933333333333333,
+    "recall": 0.73,
+    "f1-score": 0.7610427584111795,
+    "support": 100
+  },
+  "weighted avg": {
+    "precision": 0.8933333333333334,
+    "recall": 0.73,
+    "f1-score": 0.7610427584111795,
+    "support": 100
+  },
+  "accuracy": 0.73
 }
