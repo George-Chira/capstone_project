@@ -1,2 +1,1 @@
-web: rasa run --enable-api --port $PORT
-action-server: rasa run actions
+web: rasa run --enable-api --cors "*" --debug -p $PORT
