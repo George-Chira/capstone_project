@@ -1,0 +1,18 @@
+[
+  {
+    "text": "How are you?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_identity",
+      "confidence": 0.3375145494937897
+    }
+  },
+  {
+    "text": "Are you human or a machine?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.552273154258728
+    }
+  }
+]
