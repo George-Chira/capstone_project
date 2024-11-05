@@ -1,1 +1,3 @@
 web: rasa run --enable-api --cors "*" --debug -p $PORT
+web: pip install -r requirements.txt -c constraints.txt && rasa run --enable-api --cors "*"
+
