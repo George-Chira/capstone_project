@@ -1,1 +1,33 @@
 .rasa/cache/
+# Byte-compiled / optimized / DLL files
+# Ignore all model files except the latest one
+models/*
+!models/20241105-121419-savory-byte.tar.gz
+
+# Ignore unnecessary virtual environment files
+venv/
+rasa_env/
+learn-env/
+
+# Ignore all cache and compiled files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Ignore log files and report files
+*.log
+.bfg-report/
+
+# Ignore additional large files or backups
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore unnecessary system files
+Thumbs.db
+.Trash-*
+
