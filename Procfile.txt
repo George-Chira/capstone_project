@@ -1,0 +1,2 @@
+web: rasa run --enable-api --port $PORT
+action-server: rasa run actions
