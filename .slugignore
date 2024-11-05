@@ -1,0 +1,27 @@
+# Ignore unnecessary models (we only need the latest)
+models/*
+!models/20241105-121419-savory-byte.tar.gz
+
+# Ignore virtual environments
+venv/
+rasa_env/
+learn-env/
+
+# Ignore cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and unnecessary generated files
+*.log
+.DS_Store
+.bfg-report/
+
+# Ignore editor and system-specific files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+
+# Ignore any backups or data files not needed for runtime
+*.tar
+*.zip
