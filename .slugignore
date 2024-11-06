@@ -1,8 +1,4 @@
-*.psd
-*.pdf
-
-/spec
-# Ignore unnecessary models (we only need the latest)
+# Ignore unnecessary models (keep only the latest one)
 models/*
 !models/20241105-121419-savory-byte.tar.gz
 
@@ -11,21 +7,15 @@ venv/
 rasa_env/
 learn-env/
 
-# Ignore cache and compiled files
+# Ignore cache, compiled files, and unnecessary directories
 __pycache__/
 *.py[cod]
-
-# Ignore logs and unnecessary generated files
 *.log
-.DS_Store
-.bfg-report/
-
-# Ignore editor and system-specific files
 .vscode/
 .idea/
-.ipynb_checkpoints/
-Thumbs.db
-
-# Ignore any backups or data files not needed for runtime
+.bfg-report/
 *.tar
 *.zip
+
+# Ignore git history to reduce size during build
+.git/

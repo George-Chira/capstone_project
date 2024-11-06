@@ -3,8 +3,5 @@ rasa-sdk==3.6.2
 gunicorn==23.0.0
 requests==2.32.3
 prompt-toolkit==3.0.28
-psycopg2-binary==2.9.5  # Include if using PostgreSQL
-numpy==1.23.5  # Keep only if used in custom actions
-tensorflow==2.12.0  # Include only if using TensorFlow models
-tensorflow-io-gcs-filesystem==0.32  # Required for TensorFlow file system
-scikit-learn==1.1.3  # Include if used in ML models or pipeline
+psycopg2-binary==2.9.5  # If using PostgreSQL for tracking
+numpy==1.23.5  # Optional, only if needed in custom actions
