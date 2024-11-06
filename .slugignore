@@ -15,7 +15,17 @@ __pycache__/
 .idea/
 .bfg-report/
 *.tar
+*.tar.gz
 *.zip
+*.tmp
+
+# Ignore data, notebooks, and results (if not required for runtime)
+data/
+notebooks/
+results/
+
+# Ignore Node.js modules if used
+node_modules/
 
 # Ignore git history to reduce size during build
 .git/
