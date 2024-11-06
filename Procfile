@@ -1,1 +1,1 @@
-web: rasa run -m models --enable-api --cors "*" --port $PORT
+web: wget -O model.tar.gz "https://drive.google.com/uc?export=download&id=1weh4gKSiZsXQyGxaTqrmOw_bFtESJuUm" && mkdir -p models && tar -xzf model.tar.gz -C models && rasa run -m models --enable-api --cors "*" --port $PORT
