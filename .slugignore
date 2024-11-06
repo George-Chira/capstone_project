@@ -1,3 +1,7 @@
+*.psd
+*.pdf
+
+/spec
 # Ignore unnecessary models (we only need the latest)
 models/*
 !models/20241105-121419-savory-byte.tar.gz
