@@ -6,9 +6,11 @@ models/*
 venv/
 rasa_env/
 learn-env/
+rasa_deploy_env/
 
 # Ignore cached, compiled, and large temporary files
 __pycache__/
+*.pyc
 *.py[cod]
 *.log
 .vscode/
@@ -16,6 +18,10 @@ __pycache__/
 .bfg-report/
 *.tar
 *.zip
+.DS_Store
 
 # Ignore git history
 .git/
+
+# Ignore node_modules folder if present (if you used Node.js for any reason)
+node_modules/
