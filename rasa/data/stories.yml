@@ -1,6 +1,7 @@
 
 version: "3.1"
 
+<<<<<<< HEAD
 version: "3.1"
 
 stories:
@@ -152,7 +153,163 @@ stories:
       - action: utter_iamabot
 
   - story: say goodbye
+=======
+stories:
+  - story: Greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Farewell
+>>>>>>> a4065c6f32af3fe07a32d4d3179252e7a0bc6c21
     steps:
       - intent: goodbye
       - action: utter_goodbye
 
+<<<<<<< HEAD
+=======
+  - story: Bot Identity Inquiry
+    steps:
+      - intent: bot_identity
+      - action: utter_bot_identity
+
+  - story: Universal Health Coverage Shift
+    steps:
+      - intent: why_shift_to_uhc
+      - action: utter_why_shift_to_uhc
+
+  - story: Social Health Insurance Inquiry
+    steps:
+      - intent: what_is_shi
+      - action: utter_what_is_shi
+
+  - story: Principles of SHI
+    steps:
+      - intent: principles_of_shi
+      - action: utter_principles_of_shi
+
+  - story: Importance of SHI
+    steps:
+      - intent: importance_of_shi
+      - action: utter_importance_of_shi
+
+  - story: Health Laws Supporting UHC
+    steps:
+      - intent: health_laws_uhc
+      - action: utter_health_laws_uhc
+
+  - story: Reforms from NHIF to SHA
+    steps:
+      - intent: reforms_shi_vs_nhif
+      - action: utter_reforms_shi_vs_nhif
+
+  - story: Difference Between SHA and SHIF
+    steps:
+      - intent: difference_sha_shif
+      - action: utter_difference_sha_shif
+
+  - story: NHIF to SHA Transition Process
+    steps:
+      - intent: nhif_to_sha_transition_process
+      - action: utter_nhif_to_sha_transition_process
+
+  - story: Continuity of Services During Transition
+    steps:
+      - intent: continuity_of_services
+      - action: utter_continuity_of_services
+
+  - story: Emergency Chronic Fund Inquiry
+    steps:
+      - intent: what_is_emergency_chronic_fund
+      - action: utter_what_is_emergency_chronic_fund
+
+  - story: Impact on Staff During Transition
+    steps:
+      - intent: staff_affected_transition
+      - action: utter_staff_affected_transition
+
+  - story: SHA Eligibility
+    steps:
+      - intent: eligibility_sha
+      - action: utter_eligibility_sha
+
+  - story: Contributions to SHA
+    steps:
+      - intent: sha_contributions
+      - action: utter_sha_contributions
+
+  - story: Accessing Primary Health Fund
+    steps:
+      - intent: access_primary_health_fund
+      - action: utter_access_primary_health_fund
+
+  - story: Benefits for Low-Income Individuals
+    steps:
+      - intent: sha_benefits_low_income
+      - action: utter_sha_benefits_low_income
+
+  - story: Penalties for Late Payments
+    steps:
+      - intent: penalties_for_late_payment
+      - action: utter_penalties_for_late_payment
+
+  - story: Choosing Provider Under SHA
+    steps:
+      - intent: choose_provider_sha
+      - action: utter_choose_provider_sha
+
+  - story: Managing Quality Under SHA
+    steps:
+      - intent: sha_manage_quality
+      - action: utter_sha_manage_quality
+
+  - story: Understanding SHA
+    steps:
+      - intent: ask_sha
+      - action: utter_ask_sha
+
+  - story: UHC Institutions Inquiry
+    steps:
+      - intent: ask_uhc_institutions
+      - action: utter_ask_uhc_institutions
+
+  - story: NHIF Transition Inquiry
+    steps:
+      - intent: ask_nhif_transition
+      - action: utter_ask_nhif_transition
+
+  - story: Primary Health Care Fund Inquiry
+    steps:
+      - intent: ask_phc_fund
+      - action: utter_ask_phc_fund
+
+  - story: Emergency Fund Inquiry
+    steps:
+      - intent: ask_emergency_fund
+      - action: utter_ask_emergency_fund
+
+  - story: SHA Registration Inquiry
+    steps:
+      - intent: ask_registration
+      - action: utter_ask_registration
+
+  - story: Benefits Claims Inquiry
+    steps:
+      - intent: ask_benefits_claims
+      - action: utter_ask_benefits_claims
+
+  - story: Service Quality Inquiry
+    steps:
+      - intent: ask_service_quality
+      - action: utter_ask_service_quality
+
+  - story: Feedback and Resolution Inquiry
+    steps:
+      - intent: ask_feedback_resolution
+      - action: utter_ask_feedback_resolution
+
+  - story: Bot Challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+>>>>>>> a4065c6f32af3fe07a32d4d3179252e7a0bc6c21
