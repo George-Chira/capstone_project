@@ -89,4 +89,4 @@ rules:
   - rule: Handle bot challenge queries
     steps:
       - intent: bot_challenge
-      - action: utter_bot_identity
+      - action: utter_iamabot
