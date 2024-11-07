@@ -185,7 +185,7 @@ nlu:
       - what measures are there to ensure uninterrupted services?
       - how will continuity be maintained during nhif's replacement?
 
-    - intent: what_is_emergency_chronic_fund
+  - intent: what_is_emergency_chronic_fund
     examples: |
       - what is the emergency chronic fund?
       - what does the emergency healthcare fund cover?
