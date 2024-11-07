@@ -8,11 +8,19 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
-  epochs: 100
+  epochs: 200                               # Set a higher max epoch to allow room for early stopping
   random_seed: 42
+  constrain_similarities: true               # Helps with cross-entropy loss
+  evaluation_metric: "f1"                    # Monitor F1-score, a balanced metric
+  evaluate_on_number_of_examples: 200        # Check for improvements after every 200 examples
+  early_stopping: true                       # Enable early stopping
+  patience: 10                               # Number of epochs to wait for improvement before stopping
 - name: EntitySynonymMapper
 - name: ResponseSelector
   epochs: 100
+  constrain_similarities: true
+  early_stopping: true                       # Optional for ResponseSelector
+  patience: 5                                # Shorter patience if FAQ-style responses are simpler
 - name: FallbackClassifier
   threshold: 0.3
 
@@ -25,6 +33,10 @@ policies:
   max_history: 5
 - name: TEDPolicy
   max_history: 5
-  epochs: 100
+  epochs: 200                               # Set a higher max epoch
   random_seed: 42
-assistant_id: 20241105-115316-direct-dodecagon
+  evaluation_metric: "f1"                   # Monitor F1-score
+  evaluate_on_number_of_examples: 200       # Check for improvement every 200 examples
+  early_stopping: true                      # Enable early stopping for TEDPolicy
+  patience: 10                              # Number of epochs to wait before stopping
+assistant_id: 20241107-224627-neat-flashing

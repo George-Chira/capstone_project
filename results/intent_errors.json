@@ -1,18 +1,154 @@
 [
   {
-    "text": "How are you?",
-    "intent": "greet",
+    "text": "talk soon",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "bot_identity",
-      "confidence": 0.3375145494937897
+      "name": "greet",
+      "confidence": 0.5846114754676819
     }
   },
   {
-    "text": "Are you human or a machine?",
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "what_is_shi",
+      "confidence": 0.36835548281669617
+    }
+  },
+  {
+    "text": "are you an AI?",
     "intent": "bot_identity",
     "intent_prediction": {
       "name": "bot_challenge",
-      "confidence": 0.552273154258728
+      "confidence": 0.856188952922821
+    }
+  },
+  {
+    "text": "are you real?",
+    "intent": "bot_identity",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9480418562889099
+    }
+  },
+  {
+    "text": "are you a bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "bot_identity",
+      "confidence": 0.5659555196762085
+    }
+  },
+  {
+    "text": "are you human or a machine?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "bot_identity",
+      "confidence": 0.8513228297233582
+    }
+  },
+  {
+    "text": "what is the significance of social health insurance?",
+    "intent": "importance_of_shi",
+    "intent_prediction": {
+      "name": "what_is_shi",
+      "confidence": 0.7615104913711548
+    }
+  },
+  {
+    "text": "why do we need social health insurance?",
+    "intent": "importance_of_shi",
+    "intent_prediction": {
+      "name": "why_shift_to_uhc",
+      "confidence": 0.742609441280365
+    }
+  },
+  {
+    "text": "why not just improve NHIF?",
+    "intent": "reforms_shi_vs_nhif",
+    "intent_prediction": {
+      "name": "importance_of_shi",
+      "confidence": 0.45757031440734863
+    }
+  },
+  {
+    "text": "how will NHIF be phased out?",
+    "intent": "nhif_to_sha_transition_process",
+    "intent_prediction": {
+      "name": "staff_affected_transition",
+      "confidence": 0.7378593683242798
+    }
+  },
+  {
+    "text": "how does the emergency healthcare fund work?",
+    "intent": "what_is_emergency_chronic_fund",
+    "intent_prediction": {
+      "name": "ask_emergency_fund",
+      "confidence": 0.2854003608226776
+    }
+  },
+  {
+    "text": "what's the emergency fund for healthcare?",
+    "intent": "what_is_emergency_chronic_fund",
+    "intent_prediction": {
+      "name": "ask_emergency_fund",
+      "confidence": 0.8698873519897461
+    }
+  },
+  {
+    "text": "who can register for SHA?",
+    "intent": "eligibility_sha",
+    "intent_prediction": {
+      "name": "ask_registration",
+      "confidence": 0.29762592911720276
+    }
+  },
+  {
+    "text": "who pays into SHA?",
+    "intent": "sha_contributions",
+    "intent_prediction": {
+      "name": "eligibility_sha",
+      "confidence": 0.3158152997493744
+    }
+  },
+  {
+    "text": "are there consequences for missing SHA payments?",
+    "intent": "penalties_for_late_payment",
+    "intent_prediction": {
+      "name": "health_laws_uhc",
+      "confidence": 0.37199896574020386
+    }
+  },
+  {
+    "text": "how does SHA ensure quality healthcare?",
+    "intent": "sha_manage_quality",
+    "intent_prediction": {
+      "name": "ask_service_quality",
+      "confidence": 0.6487634181976318
+    }
+  },
+  {
+    "text": "what organizations are part of the UHC initiative?",
+    "intent": "ask_uhc_institutions",
+    "intent_prediction": {
+      "name": "staff_affected_transition",
+      "confidence": 0.18138942122459412
+    }
+  },
+  {
+    "text": "how does the PHC fund work?",
+    "intent": "ask_phc_fund",
+    "intent_prediction": {
+      "name": "what_is_shi",
+      "confidence": 0.4330283999443054
+    }
+  },
+  {
+    "text": "what quality standards are implemented under SHA?",
+    "intent": "ask_service_quality",
+    "intent_prediction": {
+      "name": "sha_manage_quality",
+      "confidence": 0.9570112824440002
     }
   }
 ]
