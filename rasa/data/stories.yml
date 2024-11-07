@@ -2,155 +2,158 @@
 version: "3.1"
 
 stories:
-  - story: greet and bot introduction
+  - story: greet user
     steps:
       - intent: greet
       - action: utter_greet
+
+  - story: goodbye user
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user asks bot identity
+    steps:
       - intent: bot_identity
       - action: utter_bot_identity
 
-  - story: ask about UHC shift
+  - story: user asks why shift to UHC
     steps:
       - intent: why_shift_to_uhc
       - action: utter_why_shift_to_uhc
 
-  - story: ask about SHI
+  - story: user asks what is SHI
     steps:
       - intent: what_is_shi
       - action: utter_what_is_shi
 
-  - story: ask about principles of SHI
+  - story: user asks principles of SHI
     steps:
       - intent: principles_of_shi
       - action: utter_principles_of_shi
 
-  - story: ask importance of SHI
+  - story: user asks importance of SHI
     steps:
       - intent: importance_of_shi
       - action: utter_importance_of_shi
 
-  - story: ask about health laws under UHC
+  - story: user asks health laws for UHC
     steps:
       - intent: health_laws_uhc
       - action: utter_health_laws_uhc
 
-  - story: reforms SHI vs NHIF
+  - story: user asks about SHI reforms vs NHIF
     steps:
       - intent: reforms_shi_vs_nhif
       - action: utter_reforms_shi_vs_nhif
 
-  - story: difference between SHA and SHIF
+  - story: user asks difference between SHA and SHIF
     steps:
       - intent: difference_sha_shif
       - action: utter_difference_sha_shif
 
-  - story: NHIF to SHA transition process
+  - story: user asks NHIF to SHA transition process
     steps:
       - intent: nhif_to_sha_transition_process
       - action: utter_nhif_to_sha_transition_process
 
-  - story: continuity of services during transition
+  - story: user asks continuity of services during transition
     steps:
       - intent: continuity_of_services
       - action: utter_continuity_of_services
 
-  - story: emergency, chronic, and critical illness fund
+  - story: user asks about emergency chronic fund
     steps:
       - intent: what_is_emergency_chronic_fund
       - action: utter_what_is_emergency_chronic_fund
 
-  - story: staff affected by transition
+  - story: user asks about staff affected during transition
     steps:
       - intent: staff_affected_transition
       - action: utter_staff_affected_transition
 
-  - story: eligibility for SHA registration
+  - story: user asks SHA eligibility
     steps:
       - intent: eligibility_sha
       - action: utter_eligibility_sha
 
-  - story: SHA contributions details
+  - story: user asks SHA contributions
     steps:
       - intent: sha_contributions
       - action: utter_sha_contributions
 
-  - story: accessing the primary health care fund
+  - story: user asks about primary health fund access
     steps:
       - intent: access_primary_health_fund
       - action: utter_access_primary_health_fund
 
-  - story: SHA benefits for low-income individuals
+  - story: user asks about SHA benefits for low-income groups
     steps:
       - intent: sha_benefits_low_income
       - action: utter_sha_benefits_low_income
 
-  - story: penalties for late payment
+  - story: user asks about penalties for late payments
     steps:
       - intent: penalties_for_late_payment
       - action: utter_penalties_for_late_payment
 
-  - story: choosing healthcare provider under SHA
+  - story: user asks to choose provider under SHA
     steps:
       - intent: choose_provider_sha
       - action: utter_choose_provider_sha
 
-  - story: quality management by SHA
+  - story: user asks how SHA ensures quality of healthcare
     steps:
       - intent: sha_manage_quality
       - action: utter_sha_manage_quality
 
-  - story: ask about SHA details
+  - story: user asks about SHA in general
     steps:
       - intent: ask_sha
       - action: utter_ask_sha
 
-  - story: ask about UHC institutions
+  - story: user asks about UHC institutions involved
     steps:
       - intent: ask_uhc_institutions
       - action: utter_ask_uhc_institutions
 
-  - story: ask about NHIF to SHA transition process
+  - story: user asks NHIF to SHA transition details
     steps:
       - intent: ask_nhif_transition
-      - action: utter_nhif_to_sha_transition_process
+      - action: utter_ask_nhif_transition
 
-  - story: ask about primary healthcare fund
+  - story: user asks about Primary Healthcare Fund
     steps:
       - intent: ask_phc_fund
-      - action: utter_access_primary_health_fund
+      - action: utter_ask_phc_fund
 
-  - story: ask about emergency fund
+  - story: user asks about emergency fund for healthcare
     steps:
       - intent: ask_emergency_fund
-      - action: utter_what_is_emergency_chronic_fund
+      - action: utter_ask_emergency_fund
 
-  - story: registration for SHA
+  - story: user asks how to register for SHA
     steps:
       - intent: ask_registration
-      - action: utter_eligibility_sha
+      - action: utter_ask_registration
 
-  - story: ask about SHA service quality
+  - story: user asks about service quality under SHA
     steps:
       - intent: ask_service_quality
-      - action: utter_sha_manage_quality
+      - action: utter_ask_service_quality
 
-  - story: ask about SHA benefits claims process
+  - story: user asks about claiming benefits
     steps:
       - intent: ask_benefits_claims
       - action: utter_ask_benefits_claims
 
-  - story: feedback resolution under SHA
+  - story: user asks about feedback resolution with SHA
     steps:
       - intent: ask_feedback_resolution
       - action: utter_ask_feedback_resolution
 
-  - story: bot challenge
+  - story: user challenges if bot is human
     steps:
       - intent: bot_challenge
       - action: utter_iamabot
-
-  - story: say goodbye
-    steps:
-      - intent: goodbye
-      - action: utter_goodbye
 

@@ -3,130 +3,194 @@ version: "3.1"
 nlu:
   - intent: greet
     examples: |
-      - Hi
-      - Hello
-      - Hey
-      - Good morning
-      - Good afternoon
-      - Good evening
-      - How are you?
-      - Hello there
-      - Hey there
-      - Hiya
+      - hi
+      - hello
+      - hey there
+      - good morning
+      - good afternoon
+      - how are you doing today?
 
   - intent: goodbye
     examples: |
-      - Goodbye
-      - Bye
-      - See you later
-      - Talk to you soon
-      - Bye for now
-      - Catch you later
-      - Have a great day
-      - Take care
-      - Farewell
-      - See you
+      - goodbye
+      - see you later
+      - talk soon
+      - have a nice day
+      - bye bye
 
   - intent: bot_identity
     examples: |
-      - Are you a bot?
-      - Who are you?
-      - Are you human or a machine?
-      - What is your purpose?
-      - What kind of assistant are you?
-      - Can you tell me if you are a real person?
-      - Are you a chatbot?
-      - What are you?
-      - Tell me about yourself
-      - Are you an AI?
-
-  - intent: why_shift_to_uhc
-    examples: |
-      - Why was it necessary to implement universal health coverage?
-      - Why did Kenya transition to universal health coverage?
-      - What led to the shift towards universal health coverage?
-      - What was the reason behind the shift to universal health coverage?
-      - Why is universal health coverage important for Kenyans?
-      - What motivated the move towards universal health coverage in Kenya?
-      - Why the shift to UHC?
-      - What is the reason for the UHC implementation?
-      - Why did Kenya adopt UHC?
-      - What led to the decision to shift to UHC?
-
-  - intent: what_is_shi
-    examples: |
-      - What does social health insurance (SHI) mean?
-      - Can you explain what SHI is?
-      - What is meant by social health insurance?
-      - What is social health insurance and how does it work?
-      - How does SHI help in managing healthcare?
-      - What role does social health insurance play in Kenya's healthcare system?
-      - Define social health insurance
-      - Explain SHI
-      - What is SHI?
-      - Tell me about SHI
-
-  - intent: penalties_for_late_payment
-    examples: |
-      - Are there penalties for late contributions to SHA?
-      - What happens if I miss a payment to SHA?
-      - Will there be penalties for not contributing on time?
-      - What penalties apply for non-payment of SHA contributions?
-      - How can I avoid penalties when contributing to SHA?
-      - Is there any consequence for delayed payments to SHA?
-      - What are the fines for late SHA payments?
-      - Do I get penalized for not paying SHA on time?
-      - What is the penalty rate for late payments?
-      - Is there a late fee for SHA contributions?
+      - are you an AI?
+      - who are you?
+      - are you real?
+      - what are you?
 
   - intent: bot_challenge
     examples: |
-      - Are you real?
-      - Can you prove you're not a bot?
-      - Are you an AI or a human?
-      - How do I know you're not human?
-      - You're just a bot, right?
-      - Are you a person or a machine?
-      - Are you self-aware?
-      - Can you think like a human?
-      - What makes you different from a human?
-      - How can I be sure you aren't human?
-
-  - intent: ask_phc_fund
+      - are you a bot?
+      - are you real?
+      - prove to me you're not a bot
+      - are you human or a machine?
+    
+  - intent: why_shift_to_uhc
     examples: |
-      - What is the Primary Healthcare Fund?
-      - How does the Primary Healthcare Fund work?
-      - Who can benefit from the Primary Healthcare Fund?
-      - What does the Primary Healthcare Fund cover?
-      - How do I register for the Primary Healthcare Fund?
-      - Is the Primary Healthcare Fund part of SHA?
-      - What services are provided by the Primary Healthcare Fund?
-      - Who is eligible for the Primary Healthcare Fund?
-      - How do I access the Primary Healthcare Fund?
-      - What are the benefits of the PHC Fund?
+      - why was it necessary to implement universal health coverage?
+      - what led to the adoption of UHC in Kenya?
+      - why do we need UHC?
 
-  - intent: ask_registration
+  - intent: what_is_shi
     examples: |
-      - How do I register for SHA?
-      - What is the registration process for SHA?
-      - Do I need to register for SHA if I have NHIF?
-      - How do I sign up for the Social Health Authority?
-      - Is registration for SHA mandatory?
-      - Where do I go to register for SHA?
-      - Can I register online for SHA?
-      - What documents are needed for SHA registration?
-      - How long does it take to register for SHA?
-      - Who is required to register for SHA?
+      - what is SHI?
+      - can you explain SHI?
+      - what does social health insurance mean?
+      - what is social health insurance about?
+
+  - intent: principles_of_shi
+    examples: |
+      - what are the principles of SHI?
+      - tell me the main principles behind SHI
+      - what rules are SHI based on?
+
+  - intent: importance_of_shi
+    examples: |
+      - why is SHI important?
+      - what is the significance of social health insurance?
+      - why do we need social health insurance?
+
+  - intent: health_laws_uhc
+    examples: |
+      - what health laws are there for UHC?
+      - can you explain the laws backing UHC?
+      - which laws support UHC in Kenya?
+
+  - intent: reforms_shi_vs_nhif
+    examples: |
+      - why switch from NHIF to SHA?
+      - why not just improve NHIF?
+      - what's the reason for changing NHIF to SHA?
+
+  - intent: difference_sha_shif
+    examples: |
+      - how are SHA and SHIF different?
+      - can you explain SHA vs SHIF?
+      - what distinguishes SHA from SHIF?
+
+  - intent: nhif_to_sha_transition_process
+    examples: |
+      - how will NHIF be phased out?
+      - what's the plan for replacing NHIF with SHA?
+      - what's the transition process from NHIF to SHA?
+
+  - intent: continuity_of_services
+    examples: |
+      - will healthcare services continue during the transition?
+      - how will continuity of services be maintained?
+      - will services be disrupted during the SHA transition?
+
+  - intent: what_is_emergency_chronic_fund
+    examples: |
+      - what is the emergency chronic fund?
+      - how does the emergency healthcare fund work?
+      - what's the emergency fund for healthcare?
+
+  - intent: staff_affected_transition
+    examples: |
+      - what happens to NHIF staff after the transition?
+      - will NHIF employees be affected by the SHA transition?
+      - what will SHA do about NHIF workers?
+
+  - intent: eligibility_sha
+    examples: |
+      - who can register for SHA?
+      - is SHA membership open to everyone?
+      - who is eligible to join SHA?
+
+  - intent: sha_contributions
+    examples: |
+      - how do contributions to SHA work?
+      - what's the contribution rate for SHA?
+      - who pays into SHA?
+
+  - intent: access_primary_health_fund
+    examples: |
+      - how do I use the primary healthcare fund?
+      - what services does the primary healthcare fund cover?
+      - who is eligible to use the primary healthcare fund?
+
+  - intent: sha_benefits_low_income
+    examples: |
+      - how does SHA support low-income individuals?
+      - will SHA provide support for vulnerable groups?
+      - what benefits does SHA offer for people who cannot afford healthcare?
+
+  - intent: penalties_for_late_payment
+    examples: |
+      - are there penalties for late payments to SHA?
+      - what happens if I don't pay my SHA contribution on time?
+      - are there consequences for missing SHA payments?
+
+  - intent: choose_provider_sha
+    examples: |
+      - can I choose my healthcare provider under SHA?
+      - can I select my hospital under SHA?
+      - do SHA members have the freedom to select healthcare facilities?
 
   - intent: sha_manage_quality
     examples: |
-      - What will SHA do to ensure quality of healthcare services?
-      - How will SHA maintain a high quality of care in facilities?
-      - What measures will SHA take to ensure quality healthcare?
-      - How does SHA guarantee quality service provision?
-      - Will there be monitoring of quality standards under SHA?
-      - How will SHA address quality concerns in healthcare facilities?
-      - How is service quality managed under SHA?
-      - What quality checks does SHA have?
-      - How will SHA ensure healthcare providers meet standards?
-      - What will SHA do to improve quality in hospitals?
+      - how does SHA ensure quality healthcare?
+      - what quality standards are managed under SHA?
+      - how will SHA guarantee service quality?
+
+  - intent: ask_sha
+    examples: |
+      - what is SHA?
+      - can you tell me about the social health authority?
+      - what does SHA do?
+
+  - intent: ask_uhc_institutions
+    examples: |
+      - what institutions are involved in UHC?
+      - who is responsible for implementing UHC?
+      - what organizations are part of the UHC initiative?
+
+  - intent: ask_nhif_transition
+    examples: |
+      - how will NHIF transition to SHA?
+      - what is the process for moving from NHIF to SHA?
+      - what steps will be taken to replace NHIF with SHA?
+
+  - intent: ask_phc_fund
+    examples: |
+      - what is the primary healthcare fund?
+      - how does the PHC fund work?
+      - who can benefit from the primary healthcare fund?
+
+  - intent: ask_emergency_fund
+    examples: |
+      - what is the emergency fund for healthcare?
+      - how does the emergency healthcare fund work?
+      - who is eligible for the emergency healthcare fund?
+
+  - intent: ask_registration
+    examples: |
+      - how do I register for SHA?
+      - what is the registration process for SHA?
+      - where do I go to register for SHA?
+
+  - intent: ask_service_quality
+    examples: |
+      - how does SHA ensure quality healthcare services?
+      - what quality standards are implemented under SHA?
+      - how is quality maintained in SHA facilities?
+
+  - intent: ask_benefits_claims
+    examples: |
+      - how do I claim benefits from SHA?
+      - what is the process for claiming healthcare benefits?
+      - how do I make a benefits claim?
+
+  - intent: ask_feedback_resolution
+    examples: |
+      - how can I give feedback to SHA?
+      - how do I file a complaint about SHA services?
+      - how does SHA handle complaints and issues?

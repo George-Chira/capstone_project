@@ -45,7 +45,7 @@ nlu:
       - what is your purpose?
       - what kind of assistant are you?
       - can you tell me if you are a real person?
-      - are you an ai?
+      - are you an AI?
       - are you a real person?
       - who built you?
       - what do you do?
@@ -57,135 +57,135 @@ nlu:
 
   - intent: why_shift_to_uhc
     examples: |
-      - why did kenya shift to UHC?
-      - why the move towards UHC?
+      - why did kenya shift to uhc?
+      - why the move towards uhc?
       - why do we need universal health coverage?
-      - why did they bring in UHC?
-      - what's the reason behind UHC in kenya?
-      - why UHC, what's the point?
+      - why did they bring in uhc?
+      - what's the reason behind uhc in kenya?
+      - why uhc, what's the point?
       - why is universal health coverage important for us?
-      - what led to the adoption of UHC?
-      - what was wrong that led to UHC?
+      - what led to the adoption of uhc?
+      - what was wrong that led to uhc?
       - why the change to universal health coverage?
-      - what motivated the move towards UHC in kenya?
-      - why did we switch to UHC?
+      - what motivated the move towards uhc in kenya?
+      - why did we switch to uhc?
 
   - intent: what_is_shi
     examples: |
-      - what is SHI?
+      - what is shi?
       - what does social health insurance mean?
-      - can you explain SHI to me?
-      - how does SHI work?
-      - what's SHI all about?
+      - can you explain shi to me?
+      - how does shi work?
+      - what's shi all about?
       - what is social health insurance?
       - how does social health insurance help people?
-      - what's the idea behind SHI?
-      - what exactly is SHI?
-      - how does SHI help in healthcare?
+      - what's the idea behind shi?
+      - what exactly is shi?
+      - how does shi help in healthcare?
       - can you explain social health insurance?
       - what is social health insurance all about?
-      - tell me about SHI
-      - what does SHI do for healthcare?
+      - tell me about shi
+      - what does shi do for healthcare?
 
   - intent: principles_of_shi
     examples: |
-      - what are the principles of SHI?
-      - can you tell me the main principles of SHI?
-      - what are the values that SHI is based on?
-      - what are the guiding principles of SHI?
-      - how does SHI work, what are its principles?
-      - what makes SHI run?
-      - what rules are SHI based on?
-      - what are the key features of SHI?
-      - what makes SHI operate?
-      - what are the foundational principles of SHI?
-      - what's important for SHI?
+      - what are the principles of shi?
+      - can you tell me the main principles of shi?
+      - what are the values that shi is based on?
+      - what are the guiding principles of shi?
+      - how does shi work, what are its principles?
+      - what makes shi run?
+      - what rules are shi based on?
+      - what are the key features of shi?
+      - what makes shi operate?
+      - what are the foundational principles of shi?
+      - what's important for shi?
       - what are the guiding values of social health insurance?
 
   - intent: importance_of_shi
     examples: |
-      - why is SHI important?
+      - why is shi important?
       - what makes social health insurance so important?
-      - how does SHI benefit us?
-      - why do we need SHI?
-      - what's the point of SHI?
-      - why should i care about SHI?
-      - what's the importance of having SHI?
-      - how does SHI help our healthcare?
+      - how does shi benefit us?
+      - why do we need shi?
+      - what's the point of shi?
+      - why should i care about shi?
+      - what's the importance of having shi?
+      - how does shi help our healthcare?
       - why should we bother with social health insurance?
-      - what's good about SHI for kenyans?
-      - how does SHI improve the healthcare system?
-      - why is SHI a good idea?
+      - what's good about shi for kenyans?
+      - how does shi improve the healthcare system?
+      - why is shi a good idea?
 
   - intent: health_laws_uhc
     examples: |
-      - what health laws are there for UHC?
-      - can you tell me about the UHC health laws?
+      - what health laws are there for uhc?
+      - can you tell me about the uhc health laws?
       - what laws support universal health coverage?
-      - which laws were passed for UHC?
-      - what are the new healthcare laws under UHC?
-      - what laws did kenya pass for UHC?
-      - can you explain the health laws related to UHC?
-      - what are the laws behind UHC?
-      - what healthcare laws support UHC development?
-      - what are the laws that were introduced for UHC?
+      - which laws were passed for uhc?
+      - what are the new healthcare laws under uhc?
+      - what laws did kenya pass for uhc?
+      - can you explain the health laws related to uhc?
+      - what are the laws behind uhc?
+      - what healthcare laws support uhc development?
+      - what are the laws that were introduced for uhc?
       - which laws back up universal health coverage?
 
   - intent: reforms_shi_vs_nhif
     examples: |
-      - why switch from NHIF to SHA?
-      - why did kenya transition to SHA instead of keeping NHIF?
-      - why not just improve NHIF?
-      - why was SHA created in place of NHIF?
-      - what's the reason for changing NHIF to SHA?
-      - what led to SHA being formed over NHIF?
-      - why reform NHIF into something new?
-      - why did they choose SHA over NHIF?
-      - why did the government create SHA?
-      - what's wrong with NHIF that led to SHA?
-      - why were healthcare reforms proposed under SHI?
-      - why did we have to move to SHA?
+      - why switch from nhif to sha?
+      - why did kenya transition to sha instead of keeping nhif?
+      - why not just improve nhif?
+      - why was sha created in place of nhif?
+      - what's the reason for changing nhif to sha?
+      - what led to sha being formed over nhif?
+      - why reform nhif into something new?
+      - why did they choose sha over nhif?
+      - why did the government create sha?
+      - what's wrong with nhif that led to sha?
+      - why were healthcare reforms proposed under shi?
+      - why did we have to move to sha?
 
   - intent: difference_sha_shif
     examples: |
-      - how are SHA and SHIF different?
-      - what's the difference between SHA and SHIF?
-      - can you explain SHA vs SHIF?
-      - are SHA and SHIF the same thing?
-      - how does SHA differ from SHIF?
-      - what's the role of SHA compared to SHIF?
-      - what makes SHA different from SHIF?
-      - how is SHA different from SHIF in terms of responsibilities?
-      - what do SHA and SHIF do differently?
-      - what's unique about SHA compared to SHIF?
+      - how are sha and shif different?
+      - what's the difference between sha and shif?
+      - can you explain sha vs shif?
+      - are sha and shif the same thing?
+      - how does sha differ from shif?
+      - what's the role of sha compared to shif?
+      - what makes sha different from shif?
+      - how is sha different from shif in terms of responsibilities?
+      - what do sha and shif do differently?
+      - what's unique about sha compared to shif?
 
   - intent: nhif_to_sha_transition_process
     examples: |
-      - how will NHIF be phased out?
-      - what's the plan for replacing NHIF with SHA?
-      - how is NHIF changing into SHA?
-      - what’s the process for moving from NHIF to SHA?
-      - how will SHA take over NHIF?
-      - how will the transition from NHIF to SHA work?
-      - what steps are involved in the NHIF to SHA switch?
-      - how will current NHIF members be moved to SHA?
-      - what is happening with NHIF now that SHA is here?
-      - what's the process for NHIF moving to SHA?
+      - how will nhif be phased out?
+      - what's the plan for replacing nhif with sha?
+      - how is nhif changing into sha?
+      - what’s the process for moving from nhif to sha?
+      - how will sha take over nhif?
+      - how will the transition from nhif to sha work?
+      - what steps are involved in the nhif to sha switch?
+      - how will current nhif members be moved to sha?
+      - what is happening with nhif now that sha is here?
+      - what's the process for nhif moving to sha?
 
   - intent: continuity_of_services
     examples: |
       - will healthcare services continue during the transition?
       - how will continuity of services be ensured?
-      - how is kenya ensuring people still get healthcare during the NHIF-SHA transition?
+      - how is kenya ensuring people still get healthcare during the nhif-sha transition?
       - what will be done to keep healthcare running during the transition?
-      - will services be interrupted during the NHIF-SHA switch?
+      - will services be interrupted during the nhif-sha switch?
       - what’s the plan for making sure services aren’t disrupted?
-      - how will SHA ensure there are no gaps in services?
-      - will my healthcare access be affected with the move to SHA?
+      - how will sha ensure there are no gaps in services?
+      - will my healthcare access be affected with the move to sha?
       - what measures are there to ensure uninterrupted services?
-      - how will continuity be maintained during NHIF's replacement?
+      - how will continuity be maintained during nhif's replacement?
 
-  - intent: what_is_emergency_chronic_fund
+    - intent: what_is_emergency_chronic_fund
     examples: |
       - what is the emergency chronic fund?
       - what does the emergency healthcare fund cover?
@@ -200,57 +200,167 @@ nlu:
 
   - intent: staff_affected_transition
     examples: |
-      - what happens to NHIF staff after the transition?
-      - how will NHIF workers be impacted by SHA?
-      - will NHIF staff lose their jobs?
-      - will NHIF employees be part of SHA?
-      - what's happening to NHIF employees now?
-      - how does the SHA transition affect NHIF employees?
-      - what options do NHIF staff have?
-      - will NHIF workers get jobs at SHA?
-      - how will NHIF workers be absorbed into SHA?
-      - what's the future for NHIF staff with SHA?
-
-  - intent: bot_challenge
-    examples: |
-      - are you a bot?
-      - are you real?
-      - are you human?
-      - are you a machine?
-      - are you just an AI?
-      - tell me if you are a bot
-      - are you real or just a chatbot?
-      - prove to me you're not a bot
-      - are you artificial?
-      - is this a human talking?
+      - what happens to nhif staff after the transition?
+      - how will nhif workers be impacted by sha?
+      - will nhif staff lose their jobs?
+      - will nhif employees be part of sha?
+      - what's happening to nhif employees now?
+      - how does the sha transition affect nhif employees?
+      - what options do nhif staff have?
+      - will nhif workers get jobs at sha?
+      - how will nhif workers be absorbed into sha?
+      - what's the future for nhif staff with sha?
 
   - intent: eligibility_sha
     examples: |
       - who can register for sha?
       - who is eligible to join sha?
-      - is everyone eligible for sha?
       - can non-kenyans register for sha?
-      - is sha open to all kenyans?
-      - what are the requirements to register for sha?
-      - who qualifies for the social health authority?
+      - is sha membership open to everyone?
+      - what are the eligibility criteria for registering for sha?
+      - who can become a member of the social health authority?
 
   - intent: sha_contributions
     examples: |
-      - how do contributions work for sha?
-      - how much should i contribute to sha?
-      - who pays contributions for sha?
-      - what is the rate of contributions to sha?
-      - are contributions to sha mandatory?
-      - how do i make contributions to sha?
-      - what are the contribution rates under sha?
+      - how will contributions be made to sha?
+      - what is the process for contributing to sha?
+      - who is required to make contributions to sha?
+      - how will salaried employees contribute to sha?
+      - what are the contribution rates for sha?
+      - how will informal sector workers make contributions to sha?
 
   - intent: access_primary_health_fund
     examples: |
-      - how can i access the primary healthcare fund?
+      - how can i use the primary healthcare fund?
+      - when can i access services using the primary healthcare fund?
       - what services are covered by the primary healthcare fund?
-      - how does the primary healthcare fund help me?
-      - who can use the primary healthcare fund?
-      - what is the primary healthcare fund used for?
-      - is the primary healthcare fund available for everyone?
-      - how can i benefit from the primary healthcare fund?
+      - how do i register for the primary healthcare fund?
+      - who is eligible to use the primary healthcare fund?
+      - how will i benefit from the primary healthcare fund?
+
+  - intent: sha_benefits_low_income
+    examples: |
+      - how does sha support low-income individuals?
+      - what benefits does sha provide for vulnerable groups?
+      - will sha help people who can't afford healthcare?
+      - how does sha benefit people with disabilities?
+      - what provisions are in place for low-income households under sha?
+      - how does sha ensure equitable access to healthcare?
+
+  - intent: penalties_for_late_payment
+    examples: |
+      - are there penalties for late contributions to sha?
+      - what happens if i miss a payment to sha?
+      - will there be penalties for not contributing on time?
+      - what penalties apply for non-payment of sha contributions?
+      - how can i avoid penalties when contributing to sha?
+      - is there any consequence for delayed payments to sha?
+
+  - intent: choose_provider_sha
+    examples: |
+      - will i be able to select my healthcare provider under sha?
+      - can i choose which hospital to go to under sha?
+      - do sha members have the freedom to select healthcare providers?
+      - can i decide which healthcare facility i use with sha?
+      - will sha allow me to pick my doctor?
+      - can i choose between public and private facilities under sha?
+
+  - intent: sha_manage_quality
+    examples: |
+      - what will sha do to ensure quality of healthcare services?
+      - how will sha maintain a high quality of care in facilities?
+      - what measures will sha take to ensure quality healthcare?
+      - how does sha guarantee quality service provision?
+      - will there be monitoring of quality standards under sha?
+      - how will sha address quality concerns in healthcare facilities?
+
+  - intent: ask_sha
+    examples: |
+      - what is sha?
+      - can you tell me about the social health authority?
+      - what does sha do?
+      - what is the role of sha in healthcare?
+      - how does the social health authority work?
+      - who manages sha?
+
+  - intent: ask_uhc_institutions
+    examples: |
+      - what institutions are involved in uhc?
+      - which organizations play a role in universal health coverage?
+      - who is responsible for implementing uhc in kenya?
+      - what institutions drive universal health coverage?
+      - who manages healthcare institutions under uhc?
+      - what organizations are part of the uhc initiative?
+
+  - intent: ask_nhif_transition
+    examples: |
+      - what happens during the nhif to sha transition?
+      - how will the nhif shift to sha?
+      - what will be done to transition nhif to sha?
+      - what are the transition steps from nhif to sha?
+      - is nhif being replaced by sha?
+      - how will sha take over from nhif?
+
+  - intent: ask_phc_fund
+    examples: |
+      - what is the primary healthcare fund?
+      - how does the primary healthcare fund work?
+      - who can benefit from the primary healthcare fund?
+      - what does the primary healthcare fund cover?
+      - how do i register for the primary healthcare fund?
+      - is the primary healthcare fund part of sha?
+
+  - intent: ask_emergency_fund
+    examples: |
+      - what is the emergency fund for healthcare?
+      - how does the emergency fund work for chronic illnesses?
+      - can i access the emergency fund in an urgent situation?
+      - what are the conditions for accessing the emergency healthcare fund?
+      - who can use the emergency fund for healthcare?
+      - is there a fund for medical emergencies?
+
+  - intent: ask_registration
+    examples: |
+      - how do i register for sha?
+      - what is the registration process for sha?
+      - do i need to register for sha if i have nhif?
+      - how do i sign up for the social health authority?
+      - is registration for sha mandatory?
+      - where do i go to register for sha?
+
+  - intent: ask_service_quality
+    examples: |
+      - how does sha ensure quality of service?
+      - what quality standards are followed under sha?
+      - will sha monitor the quality of healthcare services?
+      - how is quality maintained in sha-funded facilities?
+      - what is sha doing about service quality?
+      - how does sha assure quality healthcare?
+
+  - intent: ask_benefits_claims
+    examples: |
+      - how can i claim benefits under sha?
+      - what is the procedure for claiming health benefits with sha?
+      - how do i make a benefits claim?
+      - what is the benefits claim process under sha?
+      - how can i receive benefits from sha?
+      - what steps are involved in claiming health benefits?
+
+  - intent: ask_feedback_resolution
+    examples: |
+      - how can i file a complaint with sha?
+      - what is the process for giving feedback to sha?
+      - is there a way to resolve disputes with sha?
+      - how do i report an issue to sha?
+      - can i give feedback on healthcare quality under sha?
+      - how does sha handle complaints?
+
+  - intent: bot_challenge
+    examples: |
+      - are you real?
+      - can you prove you're not a bot?
+      - are you an AI or a human?
+      - how do i know you're not human?
+      - you're just a bot, right?
+      - are you a person or a machine?
 

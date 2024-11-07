@@ -1,92 +1,158 @@
 version: "3.1"
 
 rules:
-  - rule: Greet user
+
+  - rule: Greet User
     steps:
       - intent: greet
       - action: utter_greet
 
-  - rule: Say goodbye
+  - rule: Say Goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
 
-  - rule: Respond to bot identity
+  - rule: Bot Identity
     steps:
       - intent: bot_identity
       - action: utter_bot_identity
 
-  - rule: Provide information on UHC shift
+  - rule: Bot Challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Explain Why Shift to UHC
     steps:
       - intent: why_shift_to_uhc
       - action: utter_why_shift_to_uhc
 
-  - rule: Explain Social Health Insurance (SHI)
+  - rule: Explain What is SHI
     steps:
       - intent: what_is_shi
       - action: utter_what_is_shi
 
-  - rule: Explain principles of SHI
+  - rule: Explain Principles of SHI
     steps:
       - intent: principles_of_shi
       - action: utter_principles_of_shi
 
-  - rule: State the importance of SHI
+  - rule: Explain Importance of SHI
     steps:
       - intent: importance_of_shi
       - action: utter_importance_of_shi
 
-  - rule: Provide details about health laws under UHC
+  - rule: Explain Health Laws of UHC
     steps:
       - intent: health_laws_uhc
       - action: utter_health_laws_uhc
 
-  - rule: Explain SHI vs NHIF reforms
+  - rule: Explain SHI Reforms vs NHIF
     steps:
       - intent: reforms_shi_vs_nhif
       - action: utter_reforms_shi_vs_nhif
 
-  - rule: Differentiate between SHA and SHIF
+  - rule: Explain Difference between SHA and SHIF
     steps:
       - intent: difference_sha_shif
       - action: utter_difference_sha_shif
 
-  - rule: Explain NHIF to SHA transition process
+  - rule: Explain NHIF to SHA Transition Process
     steps:
       - intent: nhif_to_sha_transition_process
       - action: utter_nhif_to_sha_transition_process
 
-  - rule: Ensure continuity of services during transition
+  - rule: Continuity of Services During Transition
     steps:
       - intent: continuity_of_services
       - action: utter_continuity_of_services
 
-  - rule: Explain the Emergency, Chronic, and Critical Illness Fund
+  - rule: Explain Emergency and Chronic Fund
     steps:
       - intent: what_is_emergency_chronic_fund
       - action: utter_what_is_emergency_chronic_fund
 
-  - rule: Respond to staff affected by SHA transition
+  - rule: Staff Affected by Transition
     steps:
       - intent: staff_affected_transition
       - action: utter_staff_affected_transition
 
-  - rule: Explain eligibility for SHA registration
+  - rule: SHA Eligibility
     steps:
       - intent: eligibility_sha
       - action: utter_eligibility_sha
 
-  - rule: Explain SHA contributions details
+  - rule: SHA Contributions
     steps:
       - intent: sha_contributions
       - action: utter_sha_contributions
 
-  - rule: Provide access to Primary Health Care Fund details
+  - rule: Access to Primary Health Fund
     steps:
       - intent: access_primary_health_fund
       - action: utter_access_primary_health_fund
 
-  - rule: Handle bot challenge queries
+  - rule: SHA Benefits for Low-Income Groups
     steps:
-      - intent: bot_challenge
-      - action: utter_iamabot
+      - intent: sha_benefits_low_income
+      - action: utter_sha_benefits_low_income
+
+  - rule: Penalties for Late Payment
+    steps:
+      - intent: penalties_for_late_payment
+      - action: utter_penalties_for_late_payment
+
+  - rule: Choosing Provider Under SHA
+    steps:
+      - intent: choose_provider_sha
+      - action: utter_choose_provider_sha
+
+  - rule: Managing Quality Under SHA
+    steps:
+      - intent: sha_manage_quality
+      - action: utter_sha_manage_quality
+
+  - rule: Ask General Information about SHA
+    steps:
+      - intent: ask_sha
+      - action: utter_ask_sha
+
+  - rule: Ask About UHC Institutions
+    steps:
+      - intent: ask_uhc_institutions
+      - action: utter_ask_uhc_institutions
+
+  - rule: NHIF to SHA Transition Questions
+    steps:
+      - intent: ask_nhif_transition
+      - action: utter_ask_nhif_transition
+
+  - rule: Ask About Primary Healthcare Fund
+    steps:
+      - intent: ask_phc_fund
+      - action: utter_ask_phc_fund
+
+  - rule: Ask About Emergency Fund
+    steps:
+      - intent: ask_emergency_fund
+      - action: utter_ask_emergency_fund
+
+  - rule: Ask How to Register for SHA
+    steps:
+      - intent: ask_registration
+      - action: utter_ask_registration
+
+  - rule: Ask About Service Quality Under SHA
+    steps:
+      - intent: ask_service_quality
+      - action: utter_ask_service_quality
+
+  - rule: Ask About Benefits Claims
+    steps:
+      - intent: ask_benefits_claims
+      - action: utter_ask_benefits_claims
+
+  - rule: Ask About Feedback Resolution
+    steps:
+      - intent: ask_feedback_resolution
+      - action: utter_ask_feedback_resolution

@@ -38,60 +38,102 @@ intents:
 responses:
   utter_greet:
     - text: "Hello! How can I assist you today?"
-    - text: "Hi there! How can I help you with your healthcare questions?"
-    - text: "Hey! What would you like to know today about healthcare?"
-
+    - text: "Hi there! What would you like to know?"
+    - text: "Hey! How can I help you today?"
+  
   utter_goodbye:
     - text: "Goodbye! Have a great day!"
     - text: "Bye! Feel free to ask if you have more questions."
-    - text: "Take care! If you need more information, I'm here."
-
+    - text: "Take care! See you next time."
+  
   utter_bot_identity:
-    - text: "I am a virtual assistant designed to provide information about the Social Health Authority (SHA) and Universal Health Coverage (UHC) in Kenya."
-    - text: "I am an automated assistant here to answer your questions about healthcare services, SHA, and UHC in Kenya."
-    - text: "You are chatting with an AI assistant focused on providing information regarding health coverage in Kenya."
-
+    - text: "I am a chatbot designed to provide information about the Social Health Authority (SHA) and Universal Health Coverage (UHC) in Kenya. How can I help you today?"
+    - text: "I am an automated assistant here to answer your questions about SHA, UHC, and healthcare in Kenya."
+    - text: "You are chatting with a bot that can provide information on SHA and health services in Kenya."
+  
   utter_why_shift_to_uhc:
-    - text: "The shift to Universal Health Coverage (UHC) in Kenya was to ensure all Kenyans have access to quality, affordable, and comprehensive health services without facing financial hardship."
-
+    - text: "The shift to Universal Health Coverage (UHC) was necessary to ensure all Kenyans have access to quality, affordable, and comprehensive health services without financial hardship. It promotes equity and provides access to healthcare for vulnerable groups."
+  
   utter_what_is_shi:
-    - text: "Social Health Insurance (SHI) is a health financing mechanism that pools resources from contributions to increase the efficiency of the healthcare system. It ensures people can access services when needed without worrying about immediate costs."
+    - text: "Social Health Insurance (SHI) is a healthcare financing mechanism that pools resources to increase efficiency. Individuals pay premiums into a fund that is used to cover healthcare services for all when needed, without financial burden at the point of service."
 
   utter_principles_of_shi:
-    - text: "The principles of Social Health Insurance include ensuring accessible, quality, and affordable healthcare for everyone; a well-defined benefit package anchored in law; mandatory registration and contribution; and equity in access."
+    - text: "The core principles of SHI are accessibility, quality, affordability, a well-defined benefit package, mandatory registration and contribution, and equity in healthcare access for all."
 
   utter_importance_of_shi:
-    - text: "SHI is crucial for managing healthcare funds efficiently and equitably. It allows for targeted funding based on needs, reduces administrative costs, and promotes transparency through direct contributions from beneficiaries."
+    - text: "SHI is crucial for providing sustainable, equitable healthcare. It ensures funding is based on healthcare needs, reduces costs, and promotes transparency by involving direct contributions from all members."
 
   utter_health_laws_uhc:
-    - text: "The health laws supporting UHC in Kenya include: The Social Health Insurance Law (2023), The Digital Health Act (2023), Facility Improvement Financing Law (2023), and Primary Care Networks Law (2023)."
+    - text: "The key health laws supporting UHC include: The Social Health Insurance Law, The Digital Health Act, Facility Improvement Financing Law, and the Primary Care Networks Law. These laws help implement and sustain UHC effectively."
 
   utter_reforms_shi_vs_nhif:
-    - text: "The shift from NHIF to SHA was aimed at creating a more efficient system that consolidates fragmented insurance pools, promoting equitable access."
+    - text: "The shift to SHA instead of NHIF was motivated by the need to increase efficiency and equity by consolidating fragmented insurance pools. SHA provides a fair and household-based contribution mechanism, making healthcare more accessible."
 
   utter_difference_sha_shif:
-    - text: "SHA, the Social Health Authority, manages funds including the Primary Healthcare Fund (PHCF), Social Health Insurance Fund (SHIF), and the Emergency Fund. SHIF is one of the funds overseen by SHA."
+    - text: "SHA is the governing authority managing healthcare funds like the Social Health Insurance Fund (SHIF), Primary Healthcare Fund, and Emergency, Chronic, and Critical Illness Fund. SHIF is just one of the funds SHA manages."
 
   utter_nhif_to_sha_transition_process:
-    - text: "The transition from NHIF to SHA involves transferring responsibilities and resources, with the completion expected by July 2024."
+    - text: "The transition from NHIF to SHA will take place by transferring all rights and duties from NHIF to SHA. The Transition Committee is overseeing this process, which is expected to be complete by July 2024."
 
   utter_continuity_of_services:
-    - text: "SHA regulations provide that all current NHIF contracts and memberships will be honored until June 30, 2024, ensuring no disruption in healthcare services."
+    - text: "Continuity of services is ensured through regulations allowing NHIF contracts and paid-up memberships to stay valid until June 30, 2024. SHA will take over on July 1, 2024, without any service disruptions."
 
   utter_what_is_emergency_chronic_fund:
-    - text: "The Emergency, Chronic, and Critical Illness Fund is set up to cover healthcare costs for chronic illnesses after exhausting SHI coverage, as well as emergencies that require additional financial support."
+    - text: "The Emergency, Chronic, and Critical Illness Fund provides financial support for managing chronic illnesses and emergencies after the Social Health Insurance Fund limits are exhausted. It ensures continued access to healthcare for critical needs."
 
   utter_staff_affected_transition:
-    - text: "NHIF staff will be affected by SHA's formation. Qualified staff can apply for new roles, and those who aren't absorbed can choose early retirement or redeployment within public services."
+    - text: "SHA will recruit staff based on its new structure. NHIF staff can apply for declared vacancies, with priority given to qualified candidates. Staff who aren't absorbed can either retire voluntarily or be redeployed."
 
   utter_eligibility_sha:
-    - text: "All Kenyans, as well as non-Kenyan residents in the country for over 12 months, must register for SHA."
+    - text: "All Kenyans, as well as non-Kenyans residing in Kenya for over 12 months, are eligible and required to register for SHA. NHIF members will need to register afresh for SHA."
 
   utter_sha_contributions:
-    - text: "Contributions to SHA will depend on household income, with salaried employees paying a monthly rate and informal sector members paying annually. The contribution rate is set at 2.75% of income."
+    - text: "Contributions to SHA depend on household income. Salaried employees will have monthly deductions, while informal workers contribute annually. The rate is 2.75% of income, ensuring fair and adequate funding."
 
   utter_access_primary_health_fund:
-    - text: "The Primary Healthcare Fund (PHCF) is used to cover services provided at level 2 and 3 health facilities. Registration for Social Health Insurance automatically grants access to PHCF."
+    - text: "The Primary Healthcare Fund (PHCF) provides essential healthcare services at no extra cost for level 2 and 3 facilities or upon referral by community health promoters. Registration for SHI automatically enrolls you in PHCF."
+
+  utter_sha_benefits_low_income:
+    - text: "SHA supports low-income and vulnerable groups by offering government-funded subsidies through means testing. This ensures everyone has access to healthcare, regardless of their financial situation."
+
+  utter_penalties_for_late_payment:
+    - text: "If contributions are not paid on time, a 2% penalty is applied to the outstanding amount for each period it remains unpaid. It is important to pay on time to avoid accumulating penalties."
+
+  utter_choose_provider_sha:
+    - text: "SHA allows members to choose their healthcare provider from a list of contracted facilities, including public, private, and faith-based providers. Members can select their preferred provider for quality care."
+
+  utter_sha_manage_quality:
+    - text: "SHA manages healthcare quality through regulations, including the Quality-of-Care Bill. SHA reimburses based on service quality and implements complaint resolution mechanisms to address any concerns."
+
+  utter_ask_sha:
+    - text: "SHA is the Social Health Authority that manages health funds in Kenya."
+
+  utter_ask_uhc_institutions:
+    - text: "UHC involves various institutions, including SHA, healthcare facilities, and government bodies."
+
+  utter_ask_nhif_transition:
+    - text: "The transition from NHIF to SHA is designed to be seamless with regulatory oversight."
+
+  utter_ask_phc_fund:
+    - text: "The Primary Healthcare Fund covers basic healthcare at community levels."
+
+  utter_ask_emergency_fund:
+    - text: "The Emergency, Chronic, and Critical Illness Fund is used after exhausting standard SHI limits."
+
+  utter_ask_registration:
+    - text: "Registration for SHA is required for all Kenyan residents, and involves simple verification steps."
+
+  utter_ask_benefits_claims:
+    - text: "Benefits claims under SHA are processed through empaneled healthcare providers."
+
+  utter_ask_service_quality:
+    - text: "SHA ensures service quality by monitoring provider performance and patient satisfaction."
+
+  utter_ask_feedback_resolution:
+    - text: "SHA has a complaint resolution process based on the Mwongozo governance code."
+
+  utter_iamabot:
+    - text: "I am a virtual assistant designed to help you with questions about healthcare in Kenya."
 
 actions:
   - utter_greet
@@ -111,4 +153,18 @@ actions:
   - utter_eligibility_sha
   - utter_sha_contributions
   - utter_access_primary_health_fund
+  - utter_sha_benefits_low_income
+  - utter_penalties_for_late_payment
+  - utter_choose_provider_sha
+  - utter_sha_manage_quality
+  - utter_ask_sha
+  - utter_ask_uhc_institutions
+  - utter_ask_nhif_transition
+  - utter_ask_phc_fund
+  - utter_ask_emergency_fund
+  - utter_ask_registration
+  - utter_ask_benefits_claims
+  - utter_ask_service_quality
+  - utter_ask_feedback_resolution
+  - utter_iamabot
 
