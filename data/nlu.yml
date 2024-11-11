@@ -1,6 +1,7 @@
 version: "3.1"
 
 nlu:
+
 - intent: greet
   examples: |
     - hey
@@ -19,16 +20,109 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - see you
+    - catch you later
+    - bye for now
+    - farewell
+    - talk to you soon
+
+- intent: general_inquiry
+  examples: |
+    - what is sha all about
+    - what does the social health authority do
+    - who manages sha
+    - can you tell me more about sha
+    - what is the role of sha in healthcare
+    - what does sha stand for
+    - explain tthe purpose of sha
+    - why was sha established
+    - how does sha work
+
+- intent: registration
+  examples: |
+    - How do I become a member of SHA?
+    - Is registration with SHA mandatory?
+    - Can I register my dependents with SHA?
+    - What documents do I need to register with SHA?
+    - How do I sign up for SHA benefits?
+    - Is registration open for all residents?
+    - Can foreigners register for SHA?
+    - What is the process for SHA registration?
+    - Do I need to register separately if I was with NHIF before?
+
+- intent: contributions
+  examples: |
+    - What happens if I can't afford SHA contributions?
+    - Are contributions the same for everyone?
+    - What if my income changes?
+    - How do I pay my SHA premiums?
+    - Is there a penalty for late payments?
+    - How are contributions collected?
+    - Will SHA contributions be deducted from my salary?
+    - Can contributions be adjusted?
+    - What is the minimum contribution amount? 
+
+- intent: transition
+  examples: | 
+    - Why is NHIF transitioning to SHA?
+    - How long will the transition take?
+    - What changes should we expect during the transition?
+    - Will my NHIF membership be affected?
+    - Is there a transition timeline?
+    - What happens to NHIF contracts?
+    - Who will oversee the transition process?
+    - How is the government managing the transition?
+    - Will NHIF assets be transferred to SHA?
+
+
+- intent: benefits
+  examples: |
+    - What are the healthcare benefits under SHA?
+    - Are there any special benefits for low-income families?
+    - What medical services are included?
+    - Does SHA cover emergency treatments?
+    - What illnesses are covered under SHA?
+    - How does SHA support people with chronic conditions?
+    - Are there any limitations to the benefits?
+    - Can I upgrade my benefits package?
+    - What types of healthcare providers are included?
+
+- intent: quality_of_service
+  examples: |
+    - Will SHA ensure high-quality healthcare?
+    - How does SHA manage service standards?
+    - What if a healthcare provider offers poor service?
+    - Are there quality checks on healthcare providers?
+    - What measures are in place for quality assurance?
+    - Can I get a second opinion at another facility?
+    - How does SHA monitor healthcare quality?
+    - Are private hospitals included under SHA?
+    - What are the service level agreements for providers?
+
+- intent: complaints
+  examples: |
+    - Where can I submit a complaint?
+    - What if I have an issue with SHA services?
+    - Can I escalate my complaint if not resolved?
+    - Is there a customer service number for SHA?
+    - How are complaints handled?
+    - Can I track the status of my complaint?
+    - Is there a dispute resolution process?
+    - Who should I contact for urgent issues?
+    - Can I appeal a decision made by SHA?
+
+- intent: funding
+  examples: |
+    - How is SHA funded?
+    - Does the government fully fund SHA?
+    - Are there any international donors for SHA?
+    - Is the funding sustainable?
+    - What happens if there is a funding shortfall?
+    - Who manages SHA's finances?
+    - Are contributions from members enough to fund SHA?
+    - How does SHA allocate its budget?
+    - Can private organizations contribute to SHA?
+
 
 - intent: affirm
   examples: |
@@ -49,43 +143,11 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
+    - i am a bot
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
