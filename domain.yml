@@ -3,28 +3,171 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - general_inquiry
+  - registration
+  - contributions
+  - transition
+  - benefits
+  - quality_of_service
+  - complaints
+  - funding
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
+
+entities:
+  - sha
+  - government
+  - funding
+  - donors
+  - sustainability
+  - finances
+  - contributions
+  - budget
+  - private_organizations
+  - complaints
+  - issue
+  - decision
+  - status
+  - benefit_type
+  - condition
+  - provider_type
+  - amount
+  - location
+  - slots
+  - transition_detail
+  - income_change
+  - payment_method
+  - penalty
+  - contribution_type
+  - registration_document
+  - sha_info
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_goobye:
+  - text: "Goodbye! Feel free to ask more questions anytime."
+
+  utter_general_inquiry:
+  - text: "SHA, or Social Health Authority, was established to manage healthcare funds in Kenya. Its goal is to ensure all Kenyans have access to quality, affordable, and comprehensive healthcare services, from health promotion to treatment, rehabilitation, and palliative care. "
+  - text: "The Social Health Authority (SHA) is a central body responsible for managing healthcare funds in Kenya. It oversees various healthcare programs, ensuring efficient and equitable access to medical services for all Kenyans."
+  - text: "SHA stands for Social Health Authority. It was created to streamline healthcare financing in Kenya, aiming to provide accessible and affordable healthcare services to every Kenyan through efficient management of health funds."
+  - text: "SHA plays a crucial role in healthcare by managing and pooling funds to offer comprehensive medical services to Kenyans. This system promotes equity and financial protection against healthcare costs."
+  - text: "The purpose of SHA is to manage healthcare funds, promote efficient use of resources, and ensure every Kenyan, regardless of income level, has access to necessary healthcare without financial hardship."
+  - text: "SHA was established to address inefficiencies in healthcare funding and to increase healthcare coverage in Kenya. It manages risk and resource pooling, providing financial support for essential healthcare services."
+  - text: "SHA operates by collecting contributions from members, pooling these funds, and using them to provide medical coverage. It ensures funds are used effectively to provide care for those in need, and it focuses on health equity."
+  - text: "The Social Health Authority is managed by a governing board and works in collaboration with the Ministry of Health and other key healthcare stakeholders to fulfill its mission."
+  - text: "SHA, or Social Health Authority, was created to manage healthcare funds and ensure all Kenyans have access to quality, affordable health services."
+  - text: "The Social Health Authority (SHA) oversees multiple healthcare funds and works to provide equitable healthcare access to all Kenyans."
+  - text: "SHA's mission is to streamline healthcare financing, ensuring efficiency and equity in accessing health services."
+
+  utter_ask_about_registration:
+  - text: "To become a member of SHA, you need to complete a registration form using your national ID or any valid identification document. Registration is mandatory for all Kenyans."
+  - text: "Yes, SHA registration is mandatory for all residents of Kenya. Even if you were a previous NHIF member, you must register again under SHA."
+  - text: "You can register your dependents, and there is no limit to the number of dependents you can include, as long as they are declared during registration."
+  - text: "To register for SHA, you'll need to provide your national ID and details for any dependents you wish to include. The process is straightforward and open to all residents, including foreigners who meet the residency requirements."
+  - text: "SHA registration is open to all residents of Kenya, including foreigners who have been residing in the country for more than 12 months. Once registered, you'll have access to SHA benefits."
+  - text: "If you were with NHIF before, you must still register afresh with SHA. The registration ensures that your details are updated under the new system."
+  - text: "Signing up for SHA benefits is easy. Complete the registration form, include your dependents, and submit it along with your ID. SHA will then guide you through the benefits you can access."
+
+  utter_ask_about_contributions:
+  - text: "If you cannot afford SHA contributions, the government will provide subsidies based on a means testing tool to support households in need."
+  - text: "For those unable to pay SHA premiums, there are provisions for financial assistance through government subsidies."
+  - text: "Contributions are not the same for everyone. They are calculated based on 2.75% of household income, ensuring fairness and equity."
+  - text: "SHA uses a percentage-based system to determine contributions, so households with different income levels will have different premiums."
+  - text: "If your income changes, you must notify SHA so that your contributions can be adjusted accordingly."
+  - text: "Changes in income should be reported to SHA. The authority will recalculate your contributions based on the updated income."
+  - text: "You can pay your SHA premiums through various methods, including direct bank transfers, mobile money, or salary deductions."
+  - text: "SHA provides multiple payment options for convenience, such as mobile money payments or payroll deductions for salaried individuals."
+  - text: "Yes, there is a penalty for late payments. A 2% penalty of the overdue contribution amount will be charged for every month the payment is delayed."
+  - text: "Late contributions attract a 2% penalty, so it is important to make timely payments to avoid extra charges."
+  - text: "Contributions are collected either as monthly salary deductions for employed individuals or as annual payments for non-salaried members."
+  - text: "SHA uses a structured system to collect contributions, including payroll deductions and annual payments determined by the means testing tool."
+  - text: "Yes, for salaried members, SHA contributions will be automatically deducted from your salary each month."
+  - text: "SHA ensures that contributions for salaried individuals are deducted directly from their monthly wages to simplify the process."
+  - text: "Yes, SHA contributions can be adjusted based on changes in your financial situation or income level."
+  - text: "Adjustments to contributions are possible if your income or household situation changes, but you must report these changes to SHA."
+  - text: "The minimum contribution amount is Ksh 300 per month for those whose income qualifies for the base premium according to the means testing tool."
+  - text: "For low-income households, the minimum contribution is Ksh 300 per month, with the government subsidizing the rest for eligible members."
+
+  utter_ask_about_transition:
+  - text: "The transition from NHIF to SHA was necessitated to create a more efficient and equitable healthcare system for all Kenyans. SHA aims to address inefficiencies and improve healthcare service delivery."
+  - text: "The transition from NHIF to SHA will be completed within a year, with a formal deadline of July 2024. The Transition Committee is actively working to ensure a smooth handover."
+  - text: "During the transition, SHA will take over all NHIF assets, contracts, and liabilities. There will be structural changes to streamline operations, but healthcare services will remain uninterrupted."
+  - text: "Yes, your NHIF membership will be affected. All NHIF members will need to register afresh with SHA, but the process will be made simple and straightforward."
+  - text: "The transition timeline outlines that by July 2024, SHA will have fully absorbed NHIF. The Transition Committee, established in February 2024, will guide this process over 12 months."
+  - text: "Existing NHIF contracts with healthcare providers and suppliers will be transferred to SHA. The Transition Committee is working to ensure no disruptions in service delivery."
+  - text: "The transition process will be overseen by the Transition Committee, which was established to handle all legal, institutional, and operational aspects of the shift from NHIF to SHA."
+  - text: "The government is managing the transition by coordinating the efforts of the Ministry of Health, NHIF, and SHA. Legal and institutional frameworks are being developed to support this change."
+  - text: "Yes, all NHIF assets and liabilities will be automatically transferred to SHA as stipulated in the transition clause of the Social Health Insurance Act 2023. This ensures continuity and stability."
+
+  utter_ask_about_benefits:
+  - text: "SHA provides a comprehensive benefits package that includes preventive, curative, and palliative care. This ensures that members receive essential healthcare services without financial hardship."
+  - text: "The benefits under SHA cover a wide range of services, including outpatient and inpatient care, maternal health, and specialized treatments as outlined in the SHA regulations."
+  - text: "Yes, SHA has provisions for low-income families and vulnerable groups, including government subsidies to ensure they can access necessary healthcare services."
+  - text: "Low-income families receive additional support, such as fully covered primary healthcare and subsidies for secondary and tertiary healthcare services."
+  - text: "SHA covers a variety of medical services, including health promotion, disease prevention, outpatient and inpatient care, maternal and child health services, and specialist consultations."
+  - text: "The essential benefits package includes services from primary to specialized care, ensuring comprehensive healthcare coverage."
+  - text: "Yes, SHA covers emergency treatments. The Emergency, Chronic, and Critical Illness Fund is specifically designed to ensure that members receive immediate care during emergencies."
+  - text: "Emergency care is a key component of SHA's benefits, ensuring that members are treated promptly in critical situations without worrying about costs."
+  - text: "SHA covers a range of illnesses, including both acute and chronic conditions. The specific illnesses covered are listed in the essential benefits package."
+  - text: "The coverage includes common ailments as well as specialized treatment for chronic diseases, depending on the healthcare level and facilities provided by SHA."
+  - text: "SHA offers support for chronic conditions through the Emergency, Chronic, and Critical Illness Fund. This ensures continuous and affordable treatment for members."
+  - text: "People with chronic illnesses receive comprehensive support, including medication and ongoing treatment, without facing financial burdens after depleting their basic benefits."
+  - text: "There are some limitations to SHA benefits, mainly based on the level of healthcare and the type of services required. These limitations are outlined in the SHA regulations."
+  - text: "While SHA covers a broad range of services, certain high-cost procedures or non-essential treatments may have restrictions or require additional approval."
+  - text: "Currently, SHA benefits are standardized to ensure equity. However, there may be options for additional services or packages in the future."
+  - text: "Upgrading your benefits package is not available yet, but SHA continuously reviews the benefits to accommodate special needs or advanced care options."
+  - text: "SHA has contracted a wide network of healthcare providers, including public, private, and faith-based facilities. You can choose from any of these based on your location and needs."
+  - text: "The list of included healthcare providers will be made available on the SHA website, ensuring members have a variety of options for their healthcare services."
+
+  utter_ask_about_quality_of_service:
+  - text: "SHA ensures high-quality healthcare by adhering to rigorous standards and continuous quality improvement protocols."
+  - text: "Yes, SHA is committed to delivering high-quality healthcare through comprehensive quality management practices."
+  - text: "SHA manages service standards by setting clear guidelines for healthcare providers, regularly reviewing service quality, and ensuring adherence to best practices."
+  - text: "SHA maintains service standards through monitoring, training, and regular evaluations of healthcare providers."
+  - text: "If a healthcare provider offers poor service, SHA has a formal complaint process, and corrective measures are taken, including reevaluation or sanctions."
+  - text: "In case of poor service, SHA reviews the issue thoroughly and may take action such as reassigning care or addressing the provider’s performance."
+  - text: "Yes, SHA conducts regular quality checks, including performance evaluations and audits, to ensure that healthcare providers meet established standards."
+  - text: "SHA regularly evaluates healthcare providers through inspections, audits, and patient feedback to ensure service quality."
+  - text: "SHA has comprehensive quality assurance measures, including performance assessments, peer reviews, and continuous education for healthcare providers."
+  - text: "Quality assurance at SHA is guaranteed through audits, patient care evaluations, and ongoing staff training."
+  - text: "Yes, you can seek a second opinion at another facility under SHA guidelines, ensuring that you have access to the best possible care."
+  - text: "SHA allows patients to seek a second opinion at a different facility if needed, ensuring that you have confidence in your care decisions."
+  - text: "SHA monitors healthcare quality through regular audits, patient feedback, and continuous evaluation of healthcare provider performance."
+  - text: "SHA tracks the quality of healthcare by conducting routine reviews, using patient surveys, and implementing performance benchmarks."
+  - text: "Yes, private hospitals are included under SHA network of healthcare providers, allowing patients access to a range of services."
+  - text: "SHA works with both public and private hospitals, ensuring broad access to high-quality healthcare."
+  - text: "Service level agreements (SLAs) with healthcare providers under SHA define expectations for service delivery, response times, and quality standards."
+  - text: "The SLAs set by SHA ensure that providers meet clear guidelines on service performance, care standards, and timelines for treatment."
+
+  utter_ask_about_complaint:
+  - text: "You can submit a complaint through our online portal, or contact our customer service team via email or phone."
+  - text: "If your complaint is not resolved to your satisfaction, you can escalate it to the relevant department. Please ask our customer service for further steps."
+  - text: "If you have an issue with SHA services, please contact customer support. They will assist you in resolving the matter."
+  - text: "You can reach our customer service at 0800720601. Please call them for assistance."
+  - text: "Complaints are handled by our customer support team. They will review the matter and provide a response in a timely manner."
+  - text: "You can track the status of your complaint by logging into your account on the portal or by contacting customer service for updates."
+  - text: "If a complaint cannot be resolved through regular channels, we have a dispute resolution process where an independent party will review the case."
+  - text: "For urgent issues, please contact our emergency support line at [Emergency Support Number]. Our team is available to assist you 24/7."
+  - text: "If you wish to appeal a decision made by SHA, you can file an appeal through our support team. They will provide guidance on the next steps."
+
+  utter_ask_about_funding:
+  - text: "SHA is funded through a combination of government funding, international donors, and contributions from its members."
+  - text: "The government provides partial funding to SHA, but it is not fully funded by the government."
+  - text: "Yes, SHA receives support from international donors who contribute to various projects and initiatives."
+  - text: "SHA strives to ensure the sustainability of its funding through a diverse range of sources, including partnerships and grants."
+  - text: "In case of a funding shortfall, SHA will explore alternative sources such as increased contributions, additional grants, or cost-cutting measures."
+  - text: "SHA's finances are managed by a dedicated finance team, which oversees the budgeting, allocation, and reporting processes."
+  - text: "SHA's finances are managed by a dedicated finance team, which oversees the budgeting, allocation, and reporting processes."
+  - text: "Member contributions are a significant source of funding for SHA, but they may not always be sufficient to cover all expenses, which is why external funding sources are crucial."
+  - text: "SHA allocates its budget based on priority projects, operational costs, and funding agreements with donors. The finance team ensures that resources are distributed effectively."
+  - text: "Yes, private organizations can contribute to SHA through donations, sponsorships, or partnerships. These contributions help SHA continue its programs and services."
 
   utter_did_that_help:
   - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
