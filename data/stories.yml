@@ -2,29 +2,63 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - story: User greets and receives a response
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - story: User asks for general information about SHA
+    steps:
+      - intent: general_inquiry
+      - action: utter_general_inquiry
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - story: User asks about SHA registration
+    steps:
+      - intent: registration
+      - action: utter_ask_about_registration
+
+  - story: User asks about contributions
+    steps:
+      - intent: contributions
+      - action: utter_ask_about_contributions
+
+  - story: User asks about the transition from NHIF to SHA
+    steps:
+      - intent: transition
+      - action: utter_ask_about_transition
+
+  - story: User asks about SHA benefits
+    steps:
+      - intent: benefits
+      - action: utter_ask_about_benefits
+
+  - story: User asks about quality of service
+    steps:
+      - intent: quality_of_service
+      - action: utter_ask_about_quality_of_service
+
+  - story: User has a complaint
+    steps:
+      - intent: complaints
+      - action: utter_ask_about_complaint
+
+  - story: User asks about SHA funding
+    steps:
+      - intent: funding
+      - action: utter_ask_about_funding
+
+  - story: User confirms if the information was helpful
+    steps:
+      - intent: affirm
+      - action: utter_did_that_help
+
+  - story: User denies that the information was helpful
+    steps:
+      - intent: deny
+      - action: utter_did_that_help
+
+  - story: User asks bot challenge question
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
