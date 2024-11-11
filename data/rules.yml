@@ -1,13 +1,67 @@
 version: "3.1"
 
 rules:
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: Goodbye interaction
+    steps:
+      - intent: goodbye
+      - action: utter_goobye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: Handle general inquiry
+    steps:
+      - intent: general_inquiry
+      - action: utter_general_inquiry
+
+  - rule: Ask about registration
+    steps:
+      - intent: registration
+      - action: utter_ask_about_registration
+
+  - rule: Ask about contributions
+    steps:
+      - intent: contributions
+      - action: utter_ask_about_contributions
+
+  - rule: Ask about transition from NHIF to SHA
+    steps:
+      - intent: transition
+      - action: utter_ask_about_transition
+
+  - rule: Ask about benefits
+    steps:
+      - intent: benefits
+      - action: utter_ask_about_benefits
+
+  - rule: Ask about quality of service
+    steps:
+      - intent: quality_of_service
+      - action: utter_ask_about_quality_of_service
+
+  - rule: Ask about complaints
+    steps:
+      - intent: complaints
+      - action: utter_ask_about_complaint
+
+  - rule: Ask about funding
+    steps:
+      - intent: funding
+      - action: utter_ask_about_funding
+
+  - rule: Ask if the information helped
+    steps:
+      - intent: affirm
+      - action: utter_did_that_help
+
+  - rule: Did not help user
+    steps:
+      - intent: deny
+      - action: utter_did_that_help
+
+  - rule: Bot identity
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
