@@ -56,6 +56,11 @@ rules:
       - intent: affirm
       - action: utter_did_that_help
 
+  - rule: Respond to unclear queries
+    steps:
+    - intent: nlu_fallback
+    - action: action_default_fallback
+    
   - rule: Did not help user
     steps:
       - intent: deny

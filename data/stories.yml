@@ -62,3 +62,7 @@ stories:
       - intent: bot_challenge
       - action: utter_iamabot
 
+  - story: User asks about unclear queries
+    steps:
+    - intent: nlu_fallback
+    - action: utter_default

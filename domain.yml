@@ -14,6 +14,7 @@ intents:
   - affirm
   - deny
   - bot_challenge
+  - nlu_fallback
 
 entities:
   - sha
@@ -165,6 +166,12 @@ responses:
   - text: "Member contributions are a significant source of funding for SHA, but they may not always be sufficient to cover all expenses, which is why external funding sources are crucial."
   - text: "SHA allocates its budget based on priority projects, operational costs, and funding agreements with donors. The finance team ensures that resources are distributed effectively."
   - text: "Yes, private organizations can contribute to SHA through donations, sponsorships, or partnerships. These contributions help SHA continue its programs and services."
+
+  utter_default:
+  - text: "I'm sorry, I couldn't understand your question. Please ask something related to SHA services, funding, or other topics related to health services"
+  - text: "It seems your question is outside the scope of SHA. Could you rephrase or ask about SHA services?"
+  - text: "I'm here to help with SHA-related queries. For anything else, please contact our support team."
+
 
   utter_did_that_help:
   - text: "Did that help you?"
