@@ -42,7 +42,11 @@ entities:
   - penalty
   - contribution_type
   - registration_document
+  - register
+  - healthcare_providers
+  - deadline
   - sha_info
+  - helpful
 
 responses:
   utter_greet:
@@ -173,7 +177,7 @@ responses:
   - text: "I'm here to help with SHA-related queries. For anything else, please contact our support team."
 
 
-  utter_did_that_help:
+  utter_was_this_helpful:
   - text: "Did that help you?"
 
   utter_iamabot:

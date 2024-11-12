@@ -54,7 +54,7 @@ rules:
   - rule: Ask if the information helped
     steps:
       - intent: affirm
-      - action: utter_did_that_help
+      - action: utter_was_this_helpful
 
   - rule: Respond to unclear queries
     steps:
@@ -64,7 +64,7 @@ rules:
   - rule: Did not help user
     steps:
       - intent: deny
-      - action: utter_did_that_help
+      - action: utter_was_this_helpful
 
   - rule: Bot identity
     steps:

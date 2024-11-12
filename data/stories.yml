@@ -50,12 +50,12 @@ stories:
   - story: User confirms if the information was helpful
     steps:
       - intent: affirm
-      - action: utter_did_that_help
+      - action: utter_was_this_helpful
 
   - story: User denies that the information was helpful
     steps:
       - intent: deny
-      - action: utter_did_that_help
+      - action: utter_was_this_helpful
 
   - story: User asks bot challenge question
     steps:
