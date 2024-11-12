@@ -64,5 +64,5 @@ stories:
 
   - story: User asks about unclear queries
     steps:
-    - intent: nlu_fallback
-    - action: utter_default
+      - intent: nlu_fallback
+      - action: utter_unclear_queries
